@@ -20,7 +20,7 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
-	background-color: $gray;
+	background-color: $white;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -152,14 +152,15 @@ HEADER STYLES
 *********************/
 
 .header {
-	background-color: $black;
+	background-color: $white;
 }
 
 	#logo {
-		margin: 0.75em 0;
-
+		margin-top: 10px;
+        width: 250px;
+        height: 80px;
 		a {
-			color: $white;
+			color: $black;
 		}
 	}
 
@@ -183,7 +184,7 @@ and more scalable.
 
 		a {
 			display: block;
-			color: $white;
+			color: $black;
 			text-decoration: none;
 			padding: 0.75em;
 
@@ -861,8 +862,8 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
-	background-color: $black;
-	color: $light-gray;
+	background-color: $white;
+	color: $black;
 }
 
 	/*

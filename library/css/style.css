@@ -556,6 +556,12 @@ COLORS
 Need help w/ choosing your colors? Try this site out:
 http://0to255.com/
 *********************/
+/****
+NAVIGATION BORDER
+*****/
+/****
+SECTION COLOURS
+****/
 /*
 Here's a great tutorial on how to
 use color variables properly:
@@ -2452,6 +2458,30 @@ This is for the larger monitors and possibly full screen viewers.
   on larger screens.
   
   ******************************************************************/
+  /* line 12, ../scss/breakpoints/_1240up.scss */
+  .wrap {
+    width: 1200px;
+  }
+
+  /* line 16, ../scss/breakpoints/_1240up.scss */
+  #flexslider_hg_index_wrapper {
+    height: 400px;
+    overflow: hidden;
+  }
+  /* line 20, ../scss/breakpoints/_1240up.scss */
+  #flexslider_hg_index_wrapper img {
+    width: 650px;
+    height: 400px;
+    margin-left: 160px;
+  }
+  /* line 27, ../scss/breakpoints/_1240up.scss */
+  #flexslider_hg_index_wrapper div.slide-data {
+    width: 175px;
+    height: 400px;
+    position: relative;
+    top: -400px;
+    left: -5px;
+  }
 }
 /*********************
 RETINA (2x RESOLUTION DEVICES)
@@ -2594,4 +2624,78 @@ be set to display none.
   nav {
     display: none;
   }
+}
+/****
+Navigation Overrides
+****/
+/* line 155, ../scss/style.scss */
+#menu-main-nav li {
+  border-bottom: 2px solid;
+}
+/* line 157, ../scss/style.scss */
+#menu-main-nav li a:hover {
+  text-decoration: none;
+}
+/* line 161, ../scss/style.scss */
+#menu-main-nav #menu-item-4 {
+  border-bottom: 2px solid #dc1e1e;
+}
+/* line 163, ../scss/style.scss */
+#menu-main-nav #menu-item-4 :hover {
+  background-color: #dc1e1e;
+}
+/* line 168, ../scss/style.scss */
+#menu-main-nav #menu-item-5 {
+  border-bottom: 2px solid #0064c8;
+}
+/* line 170, ../scss/style.scss */
+#menu-main-nav #menu-item-5 :hover {
+  background-color: #0064c8;
+}
+/* line 175, ../scss/style.scss */
+#menu-main-nav #menu-item-6 {
+  border-bottom: 2px solid gainsboro;
+}
+/* line 177, ../scss/style.scss */
+#menu-main-nav #menu-item-6 :hover {
+  background-color: gainsboro;
+}
+/* line 182, ../scss/style.scss */
+#menu-main-nav #menu-item-7 {
+  border-bottom: 2px solid #643291;
+}
+/* line 184, ../scss/style.scss */
+#menu-main-nav #menu-item-7 :hover {
+  background-color: #643291;
+}
+/* line 189, ../scss/style.scss */
+#menu-main-nav #menu-item-8 {
+  border-bottom: 2px solid #00aa28;
+}
+/* line 191, ../scss/style.scss */
+#menu-main-nav #menu-item-8 :hover {
+  background-color: #00aa28;
+}
+/* line 196, ../scss/style.scss */
+#menu-main-nav #menu-item-9 {
+  border-bottom: 2px solid #f721e0;
+}
+/* line 198, ../scss/style.scss */
+#menu-main-nav #menu-item-9 :hover {
+  background-color: #f721e0;
+}
+/* line 203, ../scss/style.scss */
+#menu-main-nav #menu-item-10 {
+  border-bottom: 2px solid #323944;
+}
+/* line 205, ../scss/style.scss */
+#menu-main-nav #menu-item-10 :hover {
+  background-color: #323944;
+}
+
+/*** Slider Styles
+***/
+/* line 215, ../scss/style.scss */
+.slide-data {
+  background-color: #323944;
 }

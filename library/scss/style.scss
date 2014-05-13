@@ -145,3 +145,73 @@ be set to display none.
 	@import "partials/print";
 
 }
+
+/****
+Navigation Overrides
+****/
+
+#menu-main-nav {
+
+    li {
+     border-bottom: $nav-border;
+      a:hover {
+        text-decoration: none;
+      }
+    }
+    #menu-item-4 {
+      border-bottom: $nav-border $news;
+      :hover {
+        background-color: $news;
+
+      }
+    }
+    #menu-item-5 {
+      border-bottom: $nav-border $opinions;
+      :hover {
+        background-color: $opinions;
+
+      }
+    }
+  #menu-item-6 {
+    border-bottom: $nav-border $feature;
+    :hover {
+      background-color: $feature;
+
+    }
+  }
+  #menu-item-7 {
+    border-bottom: $nav-border $culture;
+    :hover {
+      background-color: $culture;
+
+    }
+  }
+  #menu-item-8 {
+    border-bottom: $nav-border $sports-lifestyle;
+    :hover {
+      background-color: $sports-lifestyle;
+
+    }
+  }
+  #menu-item-9 {
+    border-bottom: $nav-border $humour;
+    :hover {
+      background-color: $humour;
+
+    }
+  }
+  #menu-item-10 {
+    border-bottom: $nav-border $about;
+    :hover {
+      background-color: $about;
+
+    }
+  }
+}
+
+/*** Slider Styles
+***/
+
+.slide-data {
+    background-color: $black;
+}

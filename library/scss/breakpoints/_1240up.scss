@@ -9,3 +9,27 @@ on larger screens.
 
 ******************************************************************/
 
+.wrap {
+   width: 1200px;
+}
+
+#flexslider_hg_index_wrapper {
+  height: 400px;
+  overflow: hidden;
+
+  img {
+    width: 650px;
+    height: 400px;
+    margin-left: 160px;
+
+  }
+
+  div.slide-data {
+    width: 175px;
+    height: 400px;
+    position: relative;
+    top: -400px;
+    left: -5px;
+  }
+}
+

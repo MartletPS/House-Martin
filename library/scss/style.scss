@@ -215,3 +215,17 @@ Navigation Overrides
 .slide-data {
     background-color: $black;
 }
+
+/** CAPTION **/
+
+.wp-caption {
+  padding: 0;
+
+}
+
+.wp-caption-text {
+  margin: 0;
+  color: $white;
+  background-color: $black;
+}
+

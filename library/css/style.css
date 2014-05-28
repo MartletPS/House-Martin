@@ -2482,6 +2482,14 @@ This is for the larger monitors and possibly full screen viewers.
     top: -400px;
     left: -5px;
   }
+
+  /* line 36, ../scss/breakpoints/_1240up.scss */
+  .home .post {
+    width: 400px;
+    float: left;
+    height: 400px;
+    overflow: hidden;
+  }
 }
 /*********************
 RETINA (2x RESOLUTION DEVICES)
@@ -2697,5 +2705,18 @@ Navigation Overrides
 ***/
 /* line 215, ../scss/style.scss */
 .slide-data {
+  background-color: #323944;
+}
+
+/** CAPTION **/
+/* line 221, ../scss/style.scss */
+.wp-caption {
+  padding: 0;
+}
+
+/* line 226, ../scss/style.scss */
+.wp-caption-text {
+  margin: 0;
+  color: white;
   background-color: #323944;
 }

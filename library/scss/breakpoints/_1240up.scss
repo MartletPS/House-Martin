@@ -32,10 +32,26 @@ on larger screens.
     left: -5px;
   }
 }
-
 .home .post {
   width: 400px;
   float: left;
   height: 400px;
   overflow: hidden;
+  padding-bottom: 20px;
+
+  section {
+    overflow: hidden;
+    height: 310px;
+
+  }
 }
+
+.hentry header {
+   padding: 10px;
+    a {
+      color: black;
+    }
+
+}
+
+

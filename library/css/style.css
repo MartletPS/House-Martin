@@ -2483,12 +2483,27 @@ This is for the larger monitors and possibly full screen viewers.
     left: -5px;
   }
 
-  /* line 36, ../scss/breakpoints/_1240up.scss */
+  /* line 35, ../scss/breakpoints/_1240up.scss */
   .home .post {
     width: 400px;
     float: left;
     height: 400px;
     overflow: hidden;
+    padding-bottom: 20px;
+  }
+  /* line 42, ../scss/breakpoints/_1240up.scss */
+  .home .post section {
+    overflow: hidden;
+    height: 310px;
+  }
+
+  /* line 49, ../scss/breakpoints/_1240up.scss */
+  .hentry header {
+    padding: 10px;
+  }
+  /* line 51, ../scss/breakpoints/_1240up.scss */
+  .hentry header a {
+    color: black;
   }
 }
 /*********************

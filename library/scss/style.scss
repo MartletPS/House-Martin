@@ -236,15 +236,15 @@ article.category-news header{
 article.category-opinions header{
   border-bottom-color: $opinions;
 }
-header.category-features header{
+article.category-features header{
   border-bottom-color: $feature;
 }
 
-header.category-culture header{
+article.category-culture header{
   border-bottom-color: $culture;
 }
 
-header.category-sports-lifestyle header{
+article.category-sports-lifestyle header{
   border-bottom-color: $sports-lifestyle;
 }
 
@@ -252,6 +252,6 @@ article.category-humour header{
   border-bottom-color: $humour;
 }
 
-header.category-about header{
+article.category-about header{
   border-bottom-color: $about;
 }

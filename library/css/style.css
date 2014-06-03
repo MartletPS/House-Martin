@@ -2748,17 +2748,17 @@ article.category-opinions header {
 }
 
 /* line 239, ../scss/style.scss */
-header.category-features header {
+article.category-features header {
   border-bottom-color: gainsboro;
 }
 
 /* line 243, ../scss/style.scss */
-header.category-culture header {
+article.category-culture header {
   border-bottom-color: #643291;
 }
 
 /* line 247, ../scss/style.scss */
-header.category-sports-lifestyle header {
+article.category-sports-lifestyle header {
   border-bottom-color: #00aa28;
 }
 
@@ -2768,6 +2768,6 @@ article.category-humour header {
 }
 
 /* line 255, ../scss/style.scss */
-header.category-about header {
+article.category-about header {
   border-bottom-color: #323944;
 }

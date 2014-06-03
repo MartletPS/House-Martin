@@ -150,7 +150,7 @@ be set to display none.
 Navigation Overrides
 ****/
 
-#menu-main-nav {
+#menu-main-nav, #menu-header {
 
     li {
      border-bottom: $nav-border;
@@ -200,7 +200,7 @@ Navigation Overrides
 
     }
   }
-  #menu-item-10, #menu-item-7590 {
+  #menu-item-10,  #menu-item-7590 {
     border-bottom: $nav-border $about;
     :hover {
       background-color: $about;
@@ -233,11 +233,9 @@ Navigation Overrides
 article.category-news header{
   border-bottom-color: $news;
 }
-
 article.category-opinions header{
   border-bottom-color: $opinions;
 }
-
 header.category-features header{
   border-bottom-color: $feature;
 }

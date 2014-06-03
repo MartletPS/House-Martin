@@ -2660,59 +2660,59 @@ Navigation Overrides
   text-decoration: none;
 }
 /* line 161, ../scss/style.scss */
-#menu-main-nav #menu-item-4 {
+#menu-main-nav #menu-item-4, #menu-main-nav #menu-item-7581 {
   border-bottom: 2px solid #dc1e1e;
 }
 /* line 163, ../scss/style.scss */
-#menu-main-nav #menu-item-4 :hover {
+#menu-main-nav #menu-item-4 :hover, #menu-main-nav #menu-item-7581 :hover {
   background-color: #dc1e1e;
 }
 /* line 168, ../scss/style.scss */
-#menu-main-nav #menu-item-5 {
+#menu-main-nav #menu-item-5, #menu-main-nav #menu-item-7582 {
   border-bottom: 2px solid #0064c8;
 }
 /* line 170, ../scss/style.scss */
-#menu-main-nav #menu-item-5 :hover {
+#menu-main-nav #menu-item-5 :hover, #menu-main-nav #menu-item-7582 :hover {
   background-color: #0064c8;
 }
 /* line 175, ../scss/style.scss */
-#menu-main-nav #menu-item-6 {
+#menu-main-nav #menu-item-6, #menu-main-nav #menu-item-7583 {
   border-bottom: 2px solid gainsboro;
 }
 /* line 177, ../scss/style.scss */
-#menu-main-nav #menu-item-6 :hover {
+#menu-main-nav #menu-item-6 :hover, #menu-main-nav #menu-item-7583 :hover {
   background-color: gainsboro;
 }
 /* line 182, ../scss/style.scss */
-#menu-main-nav #menu-item-7 {
+#menu-main-nav #menu-item-7, #menu-main-nav #menu-item-7585 {
   border-bottom: 2px solid #643291;
 }
 /* line 184, ../scss/style.scss */
-#menu-main-nav #menu-item-7 :hover {
+#menu-main-nav #menu-item-7 :hover, #menu-main-nav #menu-item-7585 :hover {
   background-color: #643291;
 }
 /* line 189, ../scss/style.scss */
-#menu-main-nav #menu-item-8 {
+#menu-main-nav #menu-item-8, #menu-main-nav #menu-item-7586 {
   border-bottom: 2px solid #00aa28;
 }
 /* line 191, ../scss/style.scss */
-#menu-main-nav #menu-item-8 :hover {
+#menu-main-nav #menu-item-8 :hover, #menu-main-nav #menu-item-7586 :hover {
   background-color: #00aa28;
 }
 /* line 196, ../scss/style.scss */
-#menu-main-nav #menu-item-9 {
-  border-bottom: 2px solid #f721e0;
+#menu-main-nav #menu-item-9, #menu-main-nav #menu-item-7589 {
+  border-bottom: 2px solid #ffd200;
 }
 /* line 198, ../scss/style.scss */
-#menu-main-nav #menu-item-9 :hover {
-  background-color: #f721e0;
+#menu-main-nav #menu-item-9 :hover, #menu-main-nav #menu-item-7589 :hover {
+  background-color: #ffd200;
 }
 /* line 203, ../scss/style.scss */
-#menu-main-nav #menu-item-10 {
+#menu-main-nav #menu-item-10, #menu-main-nav #menu-item-7590 {
   border-bottom: 2px solid #323944;
 }
 /* line 205, ../scss/style.scss */
-#menu-main-nav #menu-item-10 :hover {
+#menu-main-nav #menu-item-10 :hover, #menu-main-nav #menu-item-7590 :hover {
   background-color: #323944;
 }
 
@@ -2734,4 +2734,40 @@ Navigation Overrides
   margin: 0;
   color: white;
   background-color: #323944;
+}
+
+/*** Header ***/
+/* line 233, ../scss/style.scss */
+article.category-news header {
+  border-bottom-color: #dc1e1e;
+}
+
+/* line 237, ../scss/style.scss */
+article.category-opinions header {
+  border-bottom-color: #0064c8;
+}
+
+/* line 241, ../scss/style.scss */
+header.category-features header {
+  border-bottom-color: gainsboro;
+}
+
+/* line 245, ../scss/style.scss */
+header.category-culture header {
+  border-bottom-color: #643291;
+}
+
+/* line 249, ../scss/style.scss */
+header.category-sports-lifestyle header {
+  border-bottom-color: #00aa28;
+}
+
+/* line 253, ../scss/style.scss */
+article.category-humour header {
+  border-bottom-color: #ffd200;
+}
+
+/* line 257, ../scss/style.scss */
+header.category-about header {
+  border-bottom-color: #323944;
 }

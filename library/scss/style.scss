@@ -158,49 +158,49 @@ Navigation Overrides
         text-decoration: none;
       }
     }
-    #menu-item-4 {
+    #menu-item-4, #menu-item-7581 {
       border-bottom: $nav-border $news;
       :hover {
         background-color: $news;
 
       }
     }
-    #menu-item-5 {
+    #menu-item-5, #menu-item-7582 {
       border-bottom: $nav-border $opinions;
       :hover {
         background-color: $opinions;
 
       }
     }
-  #menu-item-6 {
+  #menu-item-6, #menu-item-7583 {
     border-bottom: $nav-border $feature;
     :hover {
       background-color: $feature;
 
     }
   }
-  #menu-item-7 {
+  #menu-item-7, #menu-item-7585 {
     border-bottom: $nav-border $culture;
     :hover {
       background-color: $culture;
 
     }
   }
-  #menu-item-8 {
+  #menu-item-8, #menu-item-7586 {
     border-bottom: $nav-border $sports-lifestyle;
     :hover {
       background-color: $sports-lifestyle;
 
     }
   }
-  #menu-item-9 {
+  #menu-item-9, #menu-item-7589 {
     border-bottom: $nav-border $humour;
     :hover {
       background-color: $humour;
 
     }
   }
-  #menu-item-10 {
+  #menu-item-10, #menu-item-7590 {
     border-bottom: $nav-border $about;
     :hover {
       background-color: $about;
@@ -228,4 +228,32 @@ Navigation Overrides
   color: $white;
   background-color: $black;
 }
+/*** Header ***/
 
+article.category-news header{
+  border-bottom-color: $news;
+}
+
+article.category-opinions header{
+  border-bottom-color: $opinions;
+}
+
+header.category-features header{
+  border-bottom-color: $feature;
+}
+
+header.category-culture header{
+  border-bottom-color: $culture;
+}
+
+header.category-sports-lifestyle header{
+  border-bottom-color: $sports-lifestyle;
+}
+
+article.category-humour header{
+  border-bottom-color: $humour;
+}
+
+header.category-about header{
+  border-bottom-color: $about;
+}

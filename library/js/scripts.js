@@ -113,5 +113,10 @@ jQuery(document).ready(function($) {
   */
   loadGravatars();
 
+  /*
+  Change tile header color;
+   */
+
+
 
 }); /* end of as page load scripts */

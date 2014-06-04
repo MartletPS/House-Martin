@@ -153,7 +153,12 @@ Navigation Overrides
 #menu-main-nav, #menu-header {
 
     li {
+<<<<<<< HEAD
 
+=======
+     margin-left: 15px;
+     margin-right: 15px;
+>>>>>>> 9d8c74c2c76da550b65728ef8c350cebd0a3853e
      border-bottom: $nav-border;
       a:hover {
         text-decoration: none;

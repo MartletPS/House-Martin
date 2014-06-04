@@ -2463,18 +2463,24 @@ This is for the larger monitors and possibly full screen viewers.
     width: 1200px;
   }
 
-  /* line 16, ../scss/breakpoints/_1240up.scss */
+  /*********
+   Menu styling
+   *******/
+  /**********
+    Index page slider
+  **********/
+  /* line 26, ../scss/breakpoints/_1240up.scss */
   #flexslider_hg_index_wrapper {
     height: 400px;
     overflow: hidden;
   }
-  /* line 20, ../scss/breakpoints/_1240up.scss */
+  /* line 30, ../scss/breakpoints/_1240up.scss */
   #flexslider_hg_index_wrapper img {
     width: 650px;
     height: 400px;
     margin-left: 160px;
   }
-  /* line 27, ../scss/breakpoints/_1240up.scss */
+  /* line 37, ../scss/breakpoints/_1240up.scss */
   #flexslider_hg_index_wrapper div.slide-data {
     width: 175px;
     height: 400px;
@@ -2483,7 +2489,10 @@ This is for the larger monitors and possibly full screen viewers.
     left: -5px;
   }
 
-  /* line 35, ../scss/breakpoints/_1240up.scss */
+  /******
+   Index page post feed
+  ******/
+  /* line 49, ../scss/breakpoints/_1240up.scss */
   .home .post {
     width: 400px;
     float: left;
@@ -2491,17 +2500,17 @@ This is for the larger monitors and possibly full screen viewers.
     overflow: hidden;
     padding-bottom: 20px;
   }
-  /* line 42, ../scss/breakpoints/_1240up.scss */
+  /* line 56, ../scss/breakpoints/_1240up.scss */
   .home .post section {
     overflow: hidden;
     height: 310px;
   }
 
-  /* line 49, ../scss/breakpoints/_1240up.scss */
+  /* line 65, ../scss/breakpoints/_1240up.scss */
   .hentry header {
     padding: 10px;
   }
-  /* line 51, ../scss/breakpoints/_1240up.scss */
+  /* line 67, ../scss/breakpoints/_1240up.scss */
   .hentry header a {
     color: black;
   }
@@ -2653,83 +2662,85 @@ Navigation Overrides
 ****/
 /* line 155, ../scss/style.scss */
 #menu-main-nav li, #menu-header li {
+  padding-left: 15px;
+  padding-right: 15px;
   border-bottom: 2px solid;
 }
-/* line 157, ../scss/style.scss */
+/* line 159, ../scss/style.scss */
 #menu-main-nav li a:hover, #menu-header li a:hover {
   text-decoration: none;
 }
-/* line 161, ../scss/style.scss */
+/* line 163, ../scss/style.scss */
 #menu-main-nav #menu-item-4, #menu-main-nav #menu-item-7581, #menu-header #menu-item-4, #menu-header #menu-item-7581 {
   border-bottom: 2px solid #dc1e1e;
 }
-/* line 163, ../scss/style.scss */
+/* line 165, ../scss/style.scss */
 #menu-main-nav #menu-item-4 :hover, #menu-main-nav #menu-item-7581 :hover, #menu-header #menu-item-4 :hover, #menu-header #menu-item-7581 :hover {
   background-color: #dc1e1e;
 }
-/* line 168, ../scss/style.scss */
+/* line 170, ../scss/style.scss */
 #menu-main-nav #menu-item-5, #menu-main-nav #menu-item-7582, #menu-header #menu-item-5, #menu-header #menu-item-7582 {
   border-bottom: 2px solid #0064c8;
 }
-/* line 170, ../scss/style.scss */
+/* line 172, ../scss/style.scss */
 #menu-main-nav #menu-item-5 :hover, #menu-main-nav #menu-item-7582 :hover, #menu-header #menu-item-5 :hover, #menu-header #menu-item-7582 :hover {
   background-color: #0064c8;
 }
-/* line 175, ../scss/style.scss */
+/* line 177, ../scss/style.scss */
 #menu-main-nav #menu-item-6, #menu-main-nav #menu-item-7583, #menu-header #menu-item-6, #menu-header #menu-item-7583 {
   border-bottom: 2px solid gainsboro;
 }
-/* line 177, ../scss/style.scss */
+/* line 179, ../scss/style.scss */
 #menu-main-nav #menu-item-6 :hover, #menu-main-nav #menu-item-7583 :hover, #menu-header #menu-item-6 :hover, #menu-header #menu-item-7583 :hover {
   background-color: gainsboro;
 }
-/* line 182, ../scss/style.scss */
+/* line 184, ../scss/style.scss */
 #menu-main-nav #menu-item-7, #menu-main-nav #menu-item-7585, #menu-header #menu-item-7, #menu-header #menu-item-7585 {
   border-bottom: 2px solid #643291;
 }
-/* line 184, ../scss/style.scss */
+/* line 186, ../scss/style.scss */
 #menu-main-nav #menu-item-7 :hover, #menu-main-nav #menu-item-7585 :hover, #menu-header #menu-item-7 :hover, #menu-header #menu-item-7585 :hover {
   background-color: #643291;
 }
-/* line 189, ../scss/style.scss */
+/* line 191, ../scss/style.scss */
 #menu-main-nav #menu-item-8, #menu-main-nav #menu-item-7586, #menu-header #menu-item-8, #menu-header #menu-item-7586 {
   border-bottom: 2px solid #00aa28;
 }
-/* line 191, ../scss/style.scss */
+/* line 193, ../scss/style.scss */
 #menu-main-nav #menu-item-8 :hover, #menu-main-nav #menu-item-7586 :hover, #menu-header #menu-item-8 :hover, #menu-header #menu-item-7586 :hover {
   background-color: #00aa28;
 }
-/* line 196, ../scss/style.scss */
+/* line 198, ../scss/style.scss */
 #menu-main-nav #menu-item-9, #menu-main-nav #menu-item-7589, #menu-header #menu-item-9, #menu-header #menu-item-7589 {
   border-bottom: 2px solid #ffd200;
 }
-/* line 198, ../scss/style.scss */
+/* line 200, ../scss/style.scss */
 #menu-main-nav #menu-item-9 :hover, #menu-main-nav #menu-item-7589 :hover, #menu-header #menu-item-9 :hover, #menu-header #menu-item-7589 :hover {
   background-color: #ffd200;
 }
-/* line 203, ../scss/style.scss */
+/* line 205, ../scss/style.scss */
 #menu-main-nav #menu-item-10, #menu-main-nav #menu-item-7590, #menu-header #menu-item-10, #menu-header #menu-item-7590 {
   border-bottom: 2px solid #323944;
 }
-/* line 205, ../scss/style.scss */
+/* line 207, ../scss/style.scss */
 #menu-main-nav #menu-item-10 :hover, #menu-main-nav #menu-item-7590 :hover, #menu-header #menu-item-10 :hover, #menu-header #menu-item-7590 :hover {
   background-color: #323944;
 }
 
 /*** Slider Styles
 ***/
-/* line 215, ../scss/style.scss */
+/* line 217, ../scss/style.scss */
 .slide-data {
   background-color: #323944;
 }
 
 /** CAPTION **/
-/* line 221, ../scss/style.scss */
+/* line 223, ../scss/style.scss */
 .wp-caption {
   padding: 0;
 }
 
-/* line 226, ../scss/style.scss */
+/* line 228, ../scss/style.scss */
 .wp-caption-text {
   margin: 0;
   color: white;
@@ -2737,37 +2748,37 @@ Navigation Overrides
 }
 
 /*** Header ***/
-/* line 233, ../scss/style.scss */
+/* line 235, ../scss/style.scss */
 article.category-news header {
   border-bottom-color: #dc1e1e;
 }
 
-/* line 236, ../scss/style.scss */
+/* line 238, ../scss/style.scss */
 article.category-opinions header {
   border-bottom-color: #0064c8;
 }
 
-/* line 239, ../scss/style.scss */
+/* line 241, ../scss/style.scss */
 article.category-features header {
   border-bottom-color: gainsboro;
 }
 
-/* line 243, ../scss/style.scss */
+/* line 245, ../scss/style.scss */
 article.category-culture header {
   border-bottom-color: #643291;
 }
 
-/* line 247, ../scss/style.scss */
+/* line 249, ../scss/style.scss */
 article.category-sports-lifestyle header {
   border-bottom-color: #00aa28;
 }
 
-/* line 251, ../scss/style.scss */
+/* line 253, ../scss/style.scss */
 article.category-humour header {
   border-bottom-color: #ffd200;
 }
 
-/* line 255, ../scss/style.scss */
+/* line 257, ../scss/style.scss */
 article.category-about header {
   border-bottom-color: #323944;
 }

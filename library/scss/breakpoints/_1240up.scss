@@ -16,7 +16,17 @@ on larger screens.
  Menu styling
  *******/
 
+#menu-header {
 
+  li {
+    width: 105px;
+    border-bottom: $nav-border;
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
+}
 
 
 /**********

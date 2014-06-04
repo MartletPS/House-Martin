@@ -12,6 +12,16 @@ on larger screens.
 .wrap {
    width: 1200px;
 }
+/*********
+ Menu styling
+ *******/
+
+
+
+
+/**********
+  Index page slider
+**********/
 
 #flexslider_hg_index_wrapper {
   height: 400px;
@@ -32,6 +42,10 @@ on larger screens.
     left: -5px;
   }
 }
+/******
+ Index page post feed
+******/
+
 .home .post {
   width: 400px;
   float: left;
@@ -45,6 +59,8 @@ on larger screens.
 
   }
 }
+
+
 
 .hentry header {
    padding: 10px;

@@ -2662,8 +2662,8 @@ Navigation Overrides
 ****/
 /* line 155, ../scss/style.scss */
 #menu-main-nav li, #menu-header li {
-  padding-left: 15px;
-  padding-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
   border-bottom: 2px solid;
 }
 /* line 159, ../scss/style.scss */

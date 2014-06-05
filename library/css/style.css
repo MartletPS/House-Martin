@@ -2468,7 +2468,6 @@ This is for the larger monitors and possibly full screen viewers.
    *******/
   /* line 21, ../scss/breakpoints/_1240up.scss */
   #menu-header li {
-    width: 105px;
     border-bottom: 2px solid;
   }
   /* line 24, ../scss/breakpoints/_1240up.scss */
@@ -2670,6 +2669,10 @@ be set to display none.
 /****
 Navigation Overrides
 ****/
+/* line 153, ../scss/style.scss */
+#menu-main-nav, #menu-header {
+  width: 740px;
+}
 /* line 155, ../scss/style.scss */
 #menu-main-nav li, #menu-header li {
   border-bottom: 2px solid;

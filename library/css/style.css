@@ -2469,9 +2469,10 @@ This is for the larger monitors and possibly full screen viewers.
   /* line 21, ../scss/breakpoints/_1240up.scss */
   #menu-header li {
     width: 160px;
+    text-align: center;
     border-bottom: 2px solid;
   }
-  /* line 24, ../scss/breakpoints/_1240up.scss */
+  /* line 25, ../scss/breakpoints/_1240up.scss */
   #menu-header li a:hover {
     text-decoration: none;
   }
@@ -2479,18 +2480,18 @@ This is for the larger monitors and possibly full screen viewers.
   /**********
     Index page slider
   **********/
-  /* line 36, ../scss/breakpoints/_1240up.scss */
+  /* line 37, ../scss/breakpoints/_1240up.scss */
   #flexslider_hg_index_wrapper {
     height: 400px;
     overflow: hidden;
   }
-  /* line 40, ../scss/breakpoints/_1240up.scss */
+  /* line 41, ../scss/breakpoints/_1240up.scss */
   #flexslider_hg_index_wrapper img {
     width: 650px;
     height: 400px;
     margin-left: 160px;
   }
-  /* line 47, ../scss/breakpoints/_1240up.scss */
+  /* line 48, ../scss/breakpoints/_1240up.scss */
   #flexslider_hg_index_wrapper div.slide-data {
     width: 175px;
     height: 400px;
@@ -2502,7 +2503,7 @@ This is for the larger monitors and possibly full screen viewers.
   /******
    Index page post feed
   ******/
-  /* line 59, ../scss/breakpoints/_1240up.scss */
+  /* line 60, ../scss/breakpoints/_1240up.scss */
   .home .post {
     width: 390px;
     height: 400px;
@@ -2513,17 +2514,17 @@ This is for the larger monitors and possibly full screen viewers.
     border: none;
     border-left: 1px solid;
   }
-  /* line 70, ../scss/breakpoints/_1240up.scss */
+  /* line 71, ../scss/breakpoints/_1240up.scss */
   .home .post section {
     overflow: hidden;
     height: 310px;
   }
 
-  /* line 77, ../scss/breakpoints/_1240up.scss */
+  /* line 78, ../scss/breakpoints/_1240up.scss */
   .hentry header {
     padding: 10px;
   }
-  /* line 79, ../scss/breakpoints/_1240up.scss */
+  /* line 80, ../scss/breakpoints/_1240up.scss */
   .hentry header a {
     color: black;
   }

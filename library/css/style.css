@@ -2504,23 +2504,26 @@ This is for the larger monitors and possibly full screen viewers.
   ******/
   /* line 59, ../scss/breakpoints/_1240up.scss */
   .home .post {
-    width: 400px;
-    float: left;
+    width: 390px;
     height: 400px;
+    margin-right: 10px;
+    float: left;
     overflow: hidden;
     padding-bottom: 20px;
+    border: none;
+    border-left: 1px solid;
   }
-  /* line 66, ../scss/breakpoints/_1240up.scss */
+  /* line 70, ../scss/breakpoints/_1240up.scss */
   .home .post section {
     overflow: hidden;
     height: 310px;
   }
 
-  /* line 75, ../scss/breakpoints/_1240up.scss */
+  /* line 77, ../scss/breakpoints/_1240up.scss */
   .hentry header {
     padding: 10px;
   }
-  /* line 77, ../scss/breakpoints/_1240up.scss */
+  /* line 79, ../scss/breakpoints/_1240up.scss */
   .hentry header a {
     color: black;
   }

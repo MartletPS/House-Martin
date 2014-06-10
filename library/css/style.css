@@ -2469,7 +2469,7 @@ This is for the larger monitors and possibly full screen viewers.
    *******/
   /* line 21, ../scss/breakpoints/_1240up.scss */
   #menu-header li {
-    width: 130px;
+    width: 143px;
     text-align: center;
     border-bottom: 2px solid;
   }

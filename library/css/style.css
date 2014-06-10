@@ -2485,12 +2485,16 @@ This is for the larger monitors and possibly full screen viewers.
     overflow: hidden;
   }
   /* line 41, ../scss/breakpoints/_1240up.scss */
+  #flexslider_hg_index_wrapper .flexslider:hover .flex-prev {
+    left: 175px;
+  }
+  /* line 45, ../scss/breakpoints/_1240up.scss */
   #flexslider_hg_index_wrapper img {
     width: 650px;
     height: 400px;
     margin-left: 160px;
   }
-  /* line 48, ../scss/breakpoints/_1240up.scss */
+  /* line 52, ../scss/breakpoints/_1240up.scss */
   #flexslider_hg_index_wrapper div.slide-data {
     width: 175px;
     height: 400px;
@@ -2502,7 +2506,7 @@ This is for the larger monitors and possibly full screen viewers.
   /******
    Index page post feed
   ******/
-  /* line 60, ../scss/breakpoints/_1240up.scss */
+  /* line 64, ../scss/breakpoints/_1240up.scss */
   .home .post {
     width: 390px;
     height: 250px;
@@ -2513,59 +2517,62 @@ This is for the larger monitors and possibly full screen viewers.
     border: none;
     border-left: 1px solid;
   }
-  /* line 71, ../scss/breakpoints/_1240up.scss */
+  /* line 75, ../scss/breakpoints/_1240up.scss */
   .home .post section {
     overflow: hidden;
     height: 310px;
   }
 
-  /* line 78, ../scss/breakpoints/_1240up.scss */
+  /* line 82, ../scss/breakpoints/_1240up.scss */
   .hentry header {
     padding: 10px;
   }
-  /* line 80, ../scss/breakpoints/_1240up.scss */
+  /* line 84, ../scss/breakpoints/_1240up.scss */
   .hentry header a {
     color: black;
   }
 
-  /* line 87, ../scss/breakpoints/_1240up.scss */
+  /*********
+  FOOTER
+  *********/
+  /* line 94, ../scss/breakpoints/_1240up.scss */
   .footer {
     width: 1100px;
     margin-left: 78px;
   }
-  /* line 91, ../scss/breakpoints/_1240up.scss */
+  /* line 98, ../scss/breakpoints/_1240up.scss */
   .footer div.policy {
     text-align: center;
     clear: both;
     width: 1100px;
   }
-  /* line 97, ../scss/breakpoints/_1240up.scss */
+  /* line 104, ../scss/breakpoints/_1240up.scss */
   .footer div.footer-content {
     width: 1100px;
   }
-  /* line 101, ../scss/breakpoints/_1240up.scss */
+  /* line 108, ../scss/breakpoints/_1240up.scss */
   .footer .footer-navigation {
     margin-left: 30px;
     width: 200px;
     float: left;
   }
-  /* line 107, ../scss/breakpoints/_1240up.scss */
+  /* line 114, ../scss/breakpoints/_1240up.scss */
   .footer .addresses {
     width: 400px;
     float: left;
   }
-  /* line 111, ../scss/breakpoints/_1240up.scss */
+  /* line 118, ../scss/breakpoints/_1240up.scss */
   .footer .addresses .mailing-address {
     width: 200px;
     height: 300px;
     float: left;
   }
-  /* line 119, ../scss/breakpoints/_1240up.scss */
+  /* line 126, ../scss/breakpoints/_1240up.scss */
   .footer .phone-contact, .footer .staff-contact {
     float: right;
     width: 200px;
   }
-  /* line 123, ../scss/breakpoints/_1240up.scss */
+  /* line 130, ../scss/breakpoints/_1240up.scss */
   .footer .phone-contact {
     margin-right: 30px;
   }

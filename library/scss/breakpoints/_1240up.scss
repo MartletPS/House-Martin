@@ -38,6 +38,10 @@ on larger screens.
   height: 400px;
   overflow: hidden;
 
+  h2 {
+    line-height: 1.1em;
+  }
+
   .flexslider:hover .flex-prev {
       left: 175px;
   }

@@ -2137,9 +2137,8 @@ FOOTER STYLES
 *********************/
 /* line 863, ../scss/breakpoints/_base.scss */
 .footer {
-  clear: both;
-  background-color: white;
-  color: #323944;
+  background-color: black;
+  color: white;
 }
 
 /*
@@ -2527,6 +2526,48 @@ This is for the larger monitors and possibly full screen viewers.
   /* line 80, ../scss/breakpoints/_1240up.scss */
   .hentry header a {
     color: black;
+  }
+
+  /* line 87, ../scss/breakpoints/_1240up.scss */
+  .footer {
+    width: 1100px;
+    margin-left: 78px;
+  }
+  /* line 91, ../scss/breakpoints/_1240up.scss */
+  .footer div.policy {
+    text-align: center;
+    clear: both;
+    width: 1100px;
+  }
+  /* line 97, ../scss/breakpoints/_1240up.scss */
+  .footer div.footer-content {
+    width: 1100px;
+  }
+  /* line 101, ../scss/breakpoints/_1240up.scss */
+  .footer .footer-navigation {
+    margin-left: 30px;
+    width: 200px;
+    float: left;
+  }
+  /* line 107, ../scss/breakpoints/_1240up.scss */
+  .footer .addresses {
+    width: 400px;
+    float: left;
+  }
+  /* line 111, ../scss/breakpoints/_1240up.scss */
+  .footer .addresses .mailing-address {
+    width: 200px;
+    height: 300px;
+    float: left;
+  }
+  /* line 119, ../scss/breakpoints/_1240up.scss */
+  .footer .phone-contact, .footer .staff-contact {
+    float: right;
+    width: 200px;
+  }
+  /* line 123, ../scss/breakpoints/_1240up.scss */
+  .footer .phone-contact {
+    margin-right: 30px;
   }
 }
 /*********************

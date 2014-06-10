@@ -18,7 +18,77 @@
 						)); ?>
 					</nav>
 
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
+                    <div class="footer-content">
+                           <div class="footer-navigation">
+                               <h3>Navigation</h3>
+
+                               <ul>
+                                   <li>Get Involved</li>
+                                   <li>The MPS</li>
+                                   <li>Locations</li>
+                                   <li>Advertising</li>
+                                   <li>Contests</li>
+                                   <li>Events</li>
+                                   <li>Staff</li>
+                               </ul>
+                           </div>
+                           <div class="addresses">
+                               <h3>Addresses</h3>
+                               <div class="mailing-address">
+                                <strong>Mailing</strong> <br />
+                                   The Martlet <br/>
+                                   PO BOX 3035<br />
+                                   University of Victoria<br />
+                                   Victoria, B.C. <br />
+                                   V8W 3P3
+                               </div>
+                               <div class="courier-address">
+                                    <strong>Courier</strong><br />
+                                   The Martlet <br/>
+                                   Student Union Building <br/>
+                                   Room B011 <br />
+                                   University of Victoria <br />
+                                   3700 Finnerty Road <br />
+                                   Victoria, B.C. <br />
+                                   V8W 5C2
+                               </div>
+                           </div>
+                          <div class="phone-contact">
+                                <h3>Phone</h3>
+                              <p>
+                              <strong>Newsroom</strong><br />
+                              1.250.721.8360
+                              </p>
+                              <p>
+                              <strong>Ads | Business </strong><br />
+                              1.250.721.8359 <br />
+                              ads@martlet.ca
+                              </p>
+                          </div>
+                          <div class="staff-contact">
+                                <h3>Staff Contact</h3>
+                              <p>
+                                  <strong>Editor-in-Chief</strong><br />
+                                  Hugo Wong <br />
+                                  edit@martlet.ca
+                              </p>
+                              <p>
+                                  <strong>Business Manager</strong><br />
+                                  Erin Ball <br />
+                                  business@martlet.ca
+                              </p>
+                              <p>
+                                  <strong>Production Co-ordinator</strong><br />
+                                  William Workman <br />
+                                  proco@martlet.ca
+                              </p>
+
+                          </div>
+                    </div>
+                    <div class="policy">
+                        The Martlet Publishing Society is an incorporated B.C. Society and operates based on our Statement of Principles. We strive to act as an agent of constructive social change and will not publish racist, sexist, homophobic or otherwise oppressive copy.<br />
+                        &copy; Copyright Martlet Publishing Society
+                    </div>
 
 				</div>
 

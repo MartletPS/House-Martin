@@ -48,7 +48,7 @@
 				<div id="inner-header" class="wrap cf">
 
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-					<a href="<?php echo home_url(); ?>" rel="nofollow"><img id="logo" src="<?= home_url(); ?>/wp-content/themes/house-martin/library/images/logo.jpg" /></a>
+					<a href="<?php echo home_url(); ?>" rel="nofollow"><img id="logo" src="<?= home_url(); ?>/wp-content/themes/house-martin/library/images/logo.png" /></a>
 
                     <?php if ( is_active_sidebar( 'header1' ) ) : ?>
 

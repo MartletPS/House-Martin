@@ -50,7 +50,26 @@
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
 					<a href="<?php echo home_url(); ?>" rel="nofollow"><img id="logo" src="<?= home_url(); ?>/wp-content/themes/house-martin/library/images/logo.png" /></a>
 
-					<?php // if you'd like to use the site description you can un-comment it below ?>
+                    <?php if ( is_active_sidebar( 'header1' ) ) : ?>
+
+                        <?php dynamic_sidebar( 'header1' ); ?>
+
+                    <?php else : ?>
+
+                        <?php
+                        /*
+                         * This content shows up if there are no widgets defined in the backend.
+                        */
+                        ?>
+
+                        <div class="no-widgets">
+                            <p><?php _e( 'This is a widget ready area. Add some and they will appear here.', 'bonestheme' );  ?></p>
+                        </div>
+
+                    <?php endif; ?>
+
+
+                    <?php // if you'd like to use the site description you can un-comment it below ?>
 					<?php // bloginfo('description'); ?>
 
 

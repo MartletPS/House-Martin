@@ -1668,6 +1668,7 @@ and more scalable.
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 30px;
+  color: white;
 }
 
 /* end .nav */

@@ -218,6 +218,7 @@ and more scalable.
 				a {
 					padding-left: 30px;
                     color: $white;
+                    background-color: parent;
 					&:hover,
 					&:focus {}
 

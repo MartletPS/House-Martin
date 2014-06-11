@@ -1196,7 +1196,7 @@ textarea,
   padding: 0 12px;
   margin-bottom: 14px;
   font-size: 1em;
-  color: #5c6b80;
+  color: #333333;
   border-radius: 3px;
   vertical-align: middle;
   box-shadow: none;
@@ -1477,7 +1477,7 @@ body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5;
-  color: #5c6b80;
+  color: #333333;
   background-color: white;
   -webkit-font-smoothing: antialiased;
 }
@@ -1904,12 +1904,12 @@ PAGE NAVI STYLES
 /* line 538, ../scss/breakpoints/_base.scss */
 .pagination .current {
   cursor: default;
-  color: #5c6b80;
+  color: #333333;
 }
 /* line 542, ../scss/breakpoints/_base.scss */
 .pagination .current:hover, .pagination .current:focus {
   background-color: white;
-  color: #5c6b80;
+  color: #333333;
 }
 
 /* end .bones_page_navi */
@@ -2072,7 +2072,7 @@ COMMENT FORM STYLES
 }
 /* line 776, ../scss/breakpoints/_base.scss */
 .logged-in-as a {
-  color: #5c6b80;
+  color: #333333;
 }
 
 /* line 781, ../scss/breakpoints/_base.scss */

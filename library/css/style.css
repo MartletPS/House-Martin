@@ -2141,11 +2141,15 @@ SLIDER STYLES
 #flexslider_hg_index_wrapper {
   line-height: 1em;
 }
+/* line 869, ../scss/breakpoints/_base.scss */
+#flexslider_hg_index_wrapper h2 {
+  line-height: 1em;
+}
 
 /*********************
 FOOTER STYLES
 *********************/
-/* line 875, ../scss/breakpoints/_base.scss */
+/* line 878, ../scss/breakpoints/_base.scss */
 .footer {
   background-color: black;
   color: white;

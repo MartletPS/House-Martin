@@ -1690,7 +1690,7 @@ POSTS & CONTENT STYLES
 }
 /* line 268, ../scss/breakpoints/_base.scss */
 .hentry header {
-  padding: 1.5em;
+  padding: 0.75em;
   border-bottom: 2px solid;
 }
 /* line 273, ../scss/breakpoints/_base.scss */
@@ -1731,7 +1731,7 @@ POSTS & CONTENT STYLES
 /* entry content */
 /* line 318, ../scss/breakpoints/_base.scss */
 .entry-content {
-  padding: 1.5em 1.5em 0;
+  padding: 0.5em 1.5em 0;
   /*
   image alignment on a screen this size may be
   a bit difficult. It's set to start aligning

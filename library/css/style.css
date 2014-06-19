@@ -2543,7 +2543,7 @@ This is for the larger monitors and possibly full screen viewers.
   /* line 73, ../scss/breakpoints/_1240up.scss */
   .home .post {
     width: 390px;
-    height: 250px;
+    height: 188px;
     margin-right: 10px;
     float: left;
     overflow: hidden;

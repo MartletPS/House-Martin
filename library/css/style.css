@@ -1582,7 +1582,7 @@ h1, .h1 {
 /* line 129, ../scss/breakpoints/_base.scss */
 h2, .h2 {
   font-size: 1.75em;
-  line-height: 1.4em;
+  line-height: 1.0em;
   margin-bottom: 0.375em;
 }
 
@@ -2169,6 +2169,18 @@ override these styles for the desktop
 view.
 */
 /* end .footer-links */
+/******************************************************************
+FOOTER
+******************************************************************/
+/* line 913, ../scss/breakpoints/_base.scss */
+.footer {
+  color: white;
+}
+/* line 916, ../scss/breakpoints/_base.scss */
+.footer ul a {
+  text-decoration: none;
+}
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's

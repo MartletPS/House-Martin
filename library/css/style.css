@@ -1832,7 +1832,7 @@ POSTS & CONTENT STYLES
 /* line 448, ../scss/breakpoints/_base.scss */
 .wp-caption {
   max-width: 100%;
-  background: #eee;
+  background: #323944;
   padding: 5px;
   /* images inside wp-caption */
 }
@@ -1845,8 +1845,8 @@ POSTS & CONTENT STYLES
 /* line 460, ../scss/breakpoints/_base.scss */
 .wp-caption p.wp-caption-text {
   font-size: 0.85em;
-  margin: 4px 0 7px;
-  text-align: center;
+  margin: 0px 10px 4px 0px;
+  text-align: right;
 }
 
 /* end .wp-caption */

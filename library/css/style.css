@@ -1904,7 +1904,7 @@ PAGE NAVI STYLES
 }
 /* line 539, ../scss/breakpoints/_base.scss */
 .pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus {
-  background-color: #2980b9;
+  background-color: #323944;
   color: white;
 }
 /* line 545, ../scss/breakpoints/_base.scss */

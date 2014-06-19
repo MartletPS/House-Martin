@@ -460,7 +460,7 @@ POSTS & CONTENT STYLES
 
 			p.wp-caption-text {
 				font-size: 0.85em;
-				margin: 0px 10px 4px 0px;
+				margin: 0px 10px 4px 4px;
 				text-align: right;
 			}
 
@@ -881,7 +881,7 @@ FOOTER STYLES
 
 .footer {
 
-	background-color: black;
+	background-color: $black;
 	color: $white;
 }
 

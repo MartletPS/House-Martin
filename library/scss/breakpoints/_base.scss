@@ -128,7 +128,7 @@ h1, .h1 {
 
 h2, .h2 {
 	font-size: 1.75em;
-	line-height: 1.333em;
+	line-height: 1.25em;
 	margin-bottom: 0.375em;
 }
 
@@ -262,7 +262,6 @@ POSTS & CONTENT STYLES
 
 		.hentry {
 			background-color: $white;
-			border-radius: 3px;
             margin-top: 0.5em;
 			margin-bottom: 0.5em;
 
@@ -450,6 +449,7 @@ POSTS & CONTENT STYLES
 			max-width: 100%;
 			background: $black;
 			padding: 5px;
+            margin-bottom: 1em;
 
 			/* images inside wp-caption */
 			img {
@@ -461,7 +461,7 @@ POSTS & CONTENT STYLES
 			p.wp-caption-text {
 				font-size: 0.85em;
 				margin: 0px 10px 4px 4px;
-				text-align: right;
+				text-align: left;
 			}
 
 		} /* end .wp-caption */

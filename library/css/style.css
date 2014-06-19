@@ -2172,12 +2172,9 @@ view.
 /******************************************************************
 FOOTER
 ******************************************************************/
-/* line 913, ../scss/breakpoints/_base.scss */
-.footer {
-  color: white;
-}
-/* line 916, ../scss/breakpoints/_base.scss */
+/* line 915, ../scss/breakpoints/_base.scss */
 .footer ul a {
+  color: white;
   text-decoration: none;
 }
 

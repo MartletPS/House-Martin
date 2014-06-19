@@ -23,13 +23,13 @@
                                <h3>Navigation</h3>
 
                                <ul>
-                                   <li>Get Involved</li>
-                                   <li>The MPS</li>
-                                   <li>Locations</li>
-                                   <li>Advertising</li>
-                                   <li>Contests</li>
-                                   <li>Events</li>
-                                   <li>Staff</li>
+                                   <li><a href="http://www.martlet.ca/get-involved/">Get Involved</a></li>
+                                   <li><a href="http://www.martlet.ca/about/">The MPS</a></li>
+                                   <li><a href="http://www.martlet.ca/find-a-location/">Locations</a></li>
+                                   <li><a href="http://www.martlet.ca/ads/">Advertising</a></li>
+                                   <li><a href="http://www.martlet.ca/contests/">Contests</a></li>
+                                   <li><a href="http://www.martlet.ca/events/">Events</a></li>
+                                   <li><a href="http://www.martlet.ca/about/staff/">Staff</a></li>
                                </ul>
                            </div>
                            <div class="addresses">

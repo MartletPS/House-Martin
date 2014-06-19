@@ -1582,7 +1582,7 @@ h1, .h1 {
 /* line 129, ../scss/breakpoints/_base.scss */
 h2, .h2 {
   font-size: 1.75em;
-  line-height: 1.0em;
+  line-height: 1.333em;
   margin-bottom: 0.375em;
 }
 
@@ -1621,7 +1621,7 @@ HEADER STYLES
 }
 /* line 165, ../scss/breakpoints/_base.scss */
 #logo a {
-  color: #323944;
+  color: black;
 }
 
 /*********************
@@ -1655,7 +1655,7 @@ and more scalable.
 /* line 188, ../scss/breakpoints/_base.scss */
 .nav li a {
   display: block;
-  color: #323944;
+  color: black;
   text-decoration: none;
   padding: 0.75em;
   /*
@@ -1696,7 +1696,7 @@ POSTS & CONTENT STYLES
 }
 /* line 270, ../scss/breakpoints/_base.scss */
 .hentry header a {
-  color: #323944;
+  color: black;
 }
 /* line 277, ../scss/breakpoints/_base.scss */
 .hentry footer {
@@ -1821,7 +1821,7 @@ POSTS & CONTENT STYLES
 }
 /* line 438, ../scss/breakpoints/_base.scss */
 .entry-content pre {
-  background: #323944;
+  background: black;
   color: #f8f9fa;
   font-size: 0.9em;
   padding: 1.5em;
@@ -1833,7 +1833,7 @@ POSTS & CONTENT STYLES
 /* line 449, ../scss/breakpoints/_base.scss */
 .wp-caption {
   max-width: 100%;
-  background: #323944;
+  background: black;
   padding: 5px;
   /* images inside wp-caption */
 }
@@ -1901,11 +1901,11 @@ PAGE NAVI STYLES
   padding: 0.75em;
   min-width: 1em;
   display: block;
-  color: #323944;
+  color: black;
 }
 /* line 540, ../scss/breakpoints/_base.scss */
 .pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus {
-  background-color: #323944;
+  background-color: black;
   color: white;
 }
 /* line 546, ../scss/breakpoints/_base.scss */
@@ -2504,7 +2504,7 @@ This is for the larger monitors and possibly full screen viewers.
   }
   /* line 29, ../scss/breakpoints/_1240up.scss */
   #menu-header li .sub-menu {
-    background-color: #323944;
+    background-color: black;
   }
 
   /**********
@@ -2835,7 +2835,7 @@ Navigation Overrides
 ***/
 /* line 224, ../scss/style.scss */
 .slide-data {
-  background-color: #323944;
+  background-color: black;
 }
 
 /** CAPTION **/
@@ -2848,7 +2848,7 @@ Navigation Overrides
 .wp-caption-text {
   margin: 0;
   color: white;
-  background-color: #323944;
+  background-color: black;
 }
 
 /*** Header ***/

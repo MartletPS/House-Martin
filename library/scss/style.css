@@ -1250,7 +1250,7 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 body {
-  font-family: "lato", arial, sans-serif;
+  font-family: "lato", "arial", sans-serif;
   font-size: 100%;
   line-height: 1.5;
   color: #333333;
@@ -1326,7 +1326,7 @@ H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   font-family: "Arial Bold", "Arial", sans-serif;
-  text-rendering: optimizelegibility;
+  text-rendering: optimizeLegibility;
   font-weight: 800;
   /*
   if you're going to use webfonts, be sure to check your weights

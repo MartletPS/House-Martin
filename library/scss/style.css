@@ -1430,7 +1430,7 @@ POSTS & CONTENT STYLES
       color: black; }
   .hentry footer {
     padding: 1.5em;
-    border-top: 1px solid #f8f9fa; }
+    border-top: 1px solid black; }
     .hentry footer p {
       margin: 0; }
 
@@ -1479,14 +1479,14 @@ POSTS & CONTENT STYLES
   .entry-content tr {
     border-bottom: 1px solid #eaedf2; }
     .entry-content tr:nth-child(even) {
-      background-color: #f8f9fa; }
+      background-color: black; }
   .entry-content td {
     padding: 7px;
-    border-right: 1px solid #eaedf2; }
+    border-right: 1px solid black; }
     .entry-content td:last-child {
       border-right: 0; }
   .entry-content th {
-    background-color: #f8f9fa;
+    background-color: black;
     border-bottom: 1px solid #eaedf2;
     border-right: 1px solid #eaedf2; }
     .entry-content th:last-child {
@@ -1949,7 +1949,8 @@ you can add resource intensive styles.
     margin-top: 2.2em; }
 
   .widgettitle {
-    border-bottom: 2px solid #444;
+    color: black;
+    border-bottom: 4px solid black;
     margin-bottom: 0.75em; }
 
   .widget {

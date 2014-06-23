@@ -275,7 +275,7 @@ POSTS & CONTENT STYLES
 
 			footer {
 				padding: 1.5em;
-				border-top: 1px solid $light-gray;
+				border-top: 1px solid $black;
 
 				p {
 					margin: 0;
@@ -364,13 +364,13 @@ POSTS & CONTENT STYLES
 				border-bottom: 1px solid $gray;
 
 				&:nth-child(even) {
-					background-color: $light-gray;
+					background-color: $black;
 				}
 			}
 
 			td {
 				padding: 7px;
-				border-right: 1px solid $gray;
+				border-right: 1px solid $black;
 
 				&:last-child {
 					border-right: 0;
@@ -378,7 +378,7 @@ POSTS & CONTENT STYLES
 			}
 
 			th {
-				background-color: $light-gray;
+				background-color: $black;
 				border-bottom: 1px solid $gray;
 				border-right: 1px solid $gray;
 

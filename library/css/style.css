@@ -1692,7 +1692,7 @@ POSTS & CONTENT STYLES
 /* line 269, ../scss/breakpoints/_base.scss */
 .hentry header {
   padding: 0.75em;
-  border-bottom: 2px solid;
+  borderleft: 4px solid;
 }
 /* line 270, ../scss/breakpoints/_base.scss */
 .hentry header a {
@@ -2855,35 +2855,35 @@ Navigation Overrides
 /*** Header ***/
 /* line 242, ../scss/style.scss */
 article.category-news header {
-  border-bottom-color: #dc1e1e;
+  border-left-color: #dc1e1e;
 }
 
 /* line 245, ../scss/style.scss */
 article.category-opinions header {
-  border-bottom-color: #0064c8;
+  border-left-color: #0064c8;
 }
 
 /* line 248, ../scss/style.scss */
 article.category-features header {
-  border-bottom-color: gainsboro;
+  border-left-color: gainsboro;
 }
 
 /* line 252, ../scss/style.scss */
 article.category-culture header {
-  border-bottom-color: #643291;
+  border-left-color: #643291;
 }
 
 /* line 256, ../scss/style.scss */
 article.category-sports-lifestyle header {
-  border-bottom-color: #00aa28;
+  border-left-color: #00aa28;
 }
 
 /* line 260, ../scss/style.scss */
 article.category-humour header {
-  border-bottom-color: #ffd200;
+  border-left-color: #ffd200;
 }
 
 /* line 264, ../scss/style.scss */
 article.category-about header {
-  border-bottom-color: #323944;
+  border-left-color: #323944;
 }

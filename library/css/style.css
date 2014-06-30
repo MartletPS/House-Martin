@@ -1561,7 +1561,7 @@ H1, H2, H3, H4, H5 STYLES
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   font-family: "Arial Bold", "Arial", sans-serif;
   text-rendering: optimizelegibility;
-  font-weight: 500;
+  font-weight: 800;
   /*
   if you're going to use webfonts, be sure to check your weights
   http://css-tricks.com/watch-your-font-weight/
@@ -1685,7 +1685,7 @@ POSTS & CONTENT STYLES
 /* line 263, ../scss/breakpoints/_base.scss */
 .hentry {
   background-color: white;
-  border-radius: 3px;
+  border-radius: 0;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
@@ -2135,7 +2135,7 @@ SIDEBARS & ASIDES
   padding: 1.5em;
   text-align: center;
   border: 1px solid #cccccc;
-  border-radius: 2px;
+  border-radius: 0;
   margin-bottom: 1.5em;
 }
 
@@ -2158,6 +2158,7 @@ FOOTER STYLES
 .footer {
   background-color: black;
   color: white;
+  margin: 0 auto;
 }
 
 /*
@@ -2398,7 +2399,7 @@ you can add resource intensive styles.
 
   /* line 146, ../scss/breakpoints/_768up.scss */
   .widgettitle {
-    border-bottom: 2px solid #444;
+    border-bottom: 4px solid #000;
     margin-bottom: 0.75em;
   }
 

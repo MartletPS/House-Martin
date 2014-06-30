@@ -2551,7 +2551,7 @@ This is for the larger monitors and possibly full screen viewers.
     overflow: hidden;
     padding-bottom: 20px;
     border: none;
-    border-left: 1px solid;
+    border-left: 0 solid;
   }
   /* line 84, ../scss/breakpoints/_1240up.scss */
   .home .post section {

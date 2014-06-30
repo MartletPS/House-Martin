@@ -1692,7 +1692,7 @@ POSTS & CONTENT STYLES
 /* line 269, ../scss/breakpoints/_base.scss */
 .hentry header {
   padding: 0.75em;
-  borderleft: 4px solid;
+  border-left: 4px solid;
 }
 /* line 270, ../scss/breakpoints/_base.scss */
 .hentry header a {

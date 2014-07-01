@@ -1734,11 +1734,15 @@ POSTS & CONTENT STYLES
 }
 
 .author {
-  float: left;
+   float: left;
 }
 
 time.updated {
-  float: right;
+   float: right;
+}
+
+entry-content cf {
+   float: left;
 }
 
 /* entry content */

@@ -1582,7 +1582,7 @@ h1, .h1 {
 /* line 129, ../scss/breakpoints/_base.scss */
 h2, .h2 {
   font-size: 1.75em;
-  line-height: 1.333em;
+  line-height: 1.125em;
   margin-bottom: 0.375em;
 }
 

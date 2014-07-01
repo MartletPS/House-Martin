@@ -1733,18 +1733,6 @@ POSTS & CONTENT STYLES
   margin: 0;
 }
 
-.author {
-   float: left;
-}
-
-time.updated {
-   float: right;
-}
-
-entry-content cf {
-   float: left;
-}
-
 /* entry content */
 /* line 322, ../scss/breakpoints/_base.scss */
 .entry-content {

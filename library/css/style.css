@@ -1744,7 +1744,8 @@ POSTS & CONTENT STYLES
 /* entry content */
 /* line 322, ../scss/breakpoints/_base.scss */
 .entry-content {
-  padding: 0.5em 1.5em 0;
+  padding: 0;
+  margin: 1em;
   /*
   image alignment on a screen this size may be
   a bit difficult. It's set to start aligning
@@ -1754,7 +1755,7 @@ POSTS & CONTENT STYLES
 }
 /* line 325, ../scss/breakpoints/_base.scss */
 .entry-content p {
-  margin: 0.5em 0 1.5em;
+   
 }
 /* line 350, ../scss/breakpoints/_base.scss */
 .entry-content table {

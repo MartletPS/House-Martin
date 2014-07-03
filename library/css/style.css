@@ -1754,7 +1754,7 @@ POSTS & CONTENT STYLES
 }
 /* line 325, ../scss/breakpoints/_base.scss */
 .entry-content p {
-  margin: 0 0 1.5em;
+  margin: 0.5em 0 1.5em;
 }
 /* line 350, ../scss/breakpoints/_base.scss */
 .entry-content table {

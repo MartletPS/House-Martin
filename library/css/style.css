@@ -1733,7 +1733,7 @@ POSTS & CONTENT STYLES
   margin: 0;
 }
 
-.author {
+span.author {
    float: left;
 }
 

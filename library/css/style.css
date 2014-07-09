@@ -1730,7 +1730,7 @@ POSTS & CONTENT STYLES
 .byline {
   color: #9fa6b4;
   font-style: italic;
-  margin: 0;
+  margin: 0.2em;
 }
 
 span.author {
@@ -1745,7 +1745,7 @@ span.author {
 /* line 322, ../scss/breakpoints/_base.scss */
 .entry-content {
   padding: 0;
-  margin: 0 1em;
+  margin: -1em 1em;
   /*
   image alignment on a screen this size may be
   a bit difficult. It's set to start aligning

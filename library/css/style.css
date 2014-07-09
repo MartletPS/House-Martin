@@ -2582,8 +2582,7 @@ This is for the larger monitors and possibly full screen viewers.
   *********/
   /* line 103, ../scss/breakpoints/_1240up.scss */
   .footer {
-    width: 1100px;
-    margin-left: 78px;
+    width: 1200px;
   }
   /* line 107, ../scss/breakpoints/_1240up.scss */
   .footer div.policy {

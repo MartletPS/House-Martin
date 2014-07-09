@@ -2588,6 +2588,7 @@ This is for the larger monitors and possibly full screen viewers.
   .footer div.policy {
     text-align: center;
     clear: both;
+    width: 1200px;
     margin-bottom: 2em;
     font-size: 0.6em;
   }

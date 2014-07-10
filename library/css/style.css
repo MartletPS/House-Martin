@@ -2527,7 +2527,7 @@ This is for the larger monitors and possibly full screen viewers.
   }
   /* line 46, ../scss/breakpoints/_1240up.scss */
   #flexslider_hg_index_wrapper h2 {
-    line-height: 1em;
+    line-height: 1.125em;
   }
   /* line 50, ../scss/breakpoints/_1240up.scss */
   #flexslider_hg_index_wrapper .flexslider:hover .flex-prev {
@@ -2541,11 +2541,11 @@ This is for the larger monitors and possibly full screen viewers.
   }
   /* line 61, ../scss/breakpoints/_1240up.scss */
   #flexslider_hg_index_wrapper div.slide-data {
-    width: 175px;
+    width: 255px;
     height: 400px;
     position: relative;
     top: -400px;
-    left: -5px;
+    left: 0px;
   }
 
   /******

@@ -1576,7 +1576,7 @@ h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
 /* line 124, ../scss/breakpoints/_base.scss */
 h1, .h1 {
   font-size: 2.5em;
-  line-height: 1.333em;
+  line-height: 1em;
 }
 
 /* line 129, ../scss/breakpoints/_base.scss */

@@ -2405,7 +2405,8 @@ you can add resource intensive styles.
   *********************/
   /* line 142, ../scss/breakpoints/_768up.scss */
   .sidebar {
-    margin-top: 2.2em;
+    border-left: 1px dotted;
+    padding: 0 1em;
   }
 
   /* line 146, ../scss/breakpoints/_768up.scss */

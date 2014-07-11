@@ -1686,7 +1686,7 @@ POSTS & CONTENT STYLES
 .hentry {
   background-color: white;
   border-radius: 0;
-  margin-bottom: 5em;
+  margin-bottom: 1.5em;
 }
 /* line 269, ../scss/breakpoints/_base.scss */
 .hentry header {

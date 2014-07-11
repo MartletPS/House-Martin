@@ -1686,8 +1686,7 @@ POSTS & CONTENT STYLES
 .hentry {
   background-color: white;
   border-radius: 0;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 5em;
 }
 /* line 269, ../scss/breakpoints/_base.scss */
 .hentry header {
@@ -1857,7 +1856,7 @@ span.author {
 /* line 461, ../scss/breakpoints/_base.scss */
 .wp-caption p.wp-caption-text {
   font-size: 0.85em;
-  margin: 0px 10px 4px 0px;
+  padding: 0.5em 0.5em 1em 0.5em;
   text-align: right;
 }
 
@@ -2260,12 +2259,14 @@ tweeners.
   /* line 85, ../scss/breakpoints/_481up.scss */
   .entry-content .alignleft, .entry-content img.alignleft {
     margin-right: 1.5em;
+    margin-bottom: 1em;
     display: inline;
     float: left;
   }
   /* line 90, ../scss/breakpoints/_481up.scss */
   .entry-content .alignright, .entry-content img.alignright {
     margin-left: 1.5em;
+    margin-bottom: 1em;
     display: inline;
     float: right;
   }
@@ -2273,6 +2274,8 @@ tweeners.
   .entry-content .aligncenter, .entry-content img.aligncenter {
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
     display: block;
     clear: both;
   }

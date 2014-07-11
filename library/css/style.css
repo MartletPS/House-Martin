@@ -1691,7 +1691,8 @@ POSTS & CONTENT STYLES
 }
 /* line 269, ../scss/breakpoints/_base.scss */
 .hentry header {
-  padding: 0.75em;
+  margin: 1em 0;
+  padding: 1em 0;
   border-left: 4px solid;
 }
 /* line 270, ../scss/breakpoints/_base.scss */
@@ -1730,7 +1731,8 @@ POSTS & CONTENT STYLES
 .byline {
   color: #9fa6b4;
   font-style: italic;
-  margin: 0.2em;
+  margin: 0;
+  padding-top: 0.5em;
 }
 
 span.author {
@@ -2565,12 +2567,12 @@ This is for the larger monitors and possibly full screen viewers.
   /* line 84, ../scss/breakpoints/_1240up.scss */
   .home .post section {
     overflow: hidden;
-    height: 310px;
+    height: 200px;
   }
 
   /* line 91, ../scss/breakpoints/_1240up.scss */
   .hentry header {
-    padding: 10px;
+
   }
   /* line 93, ../scss/breakpoints/_1240up.scss */
   .hentry header a {

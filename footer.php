@@ -28,7 +28,7 @@
                                    <li><a href="http://www.martlet.ca/find-a-location/">Locations</a></li>
                                    <li><a href="http://www.martlet.ca/ads/">Advertising</a></li>
                                    <li><a href="http://www.martlet.ca/contests/">Contests</a></li>
-                                   <li><a href="http://www.martlet.ca/events/">Events</a></li>
+                                   <li><a href="http://www.martlet.ca/jobs/">Jobs</a></li>
                                    <li><a href="http://www.martlet.ca/about/staff/">Staff</a></li>
                                </ul>
                            </div>

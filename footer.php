@@ -74,7 +74,7 @@
                               </p>
                               <p>
                                   <strong>Business Manager</strong><br />
-                                  Erin Ball <br />
+                                  Alex Coates <br />
                                   business@martlet.ca
                               </p>
                               <p>

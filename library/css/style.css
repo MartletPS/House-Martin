@@ -2374,6 +2374,7 @@ you can add resource intensive styles.
     overflow: hidden;
     visibility: hidden;
     z-index: 8999;
+    background-color: #cccccc;
     /* highlight sub-menu current page */
   }
   /* line 80, ../scss/breakpoints/_768up.scss */
@@ -2388,12 +2389,10 @@ you can add resource intensive styles.
   /* line 82, ../scss/breakpoints/_768up.scss */
   .nav li ul.sub-menu li a,
   .nav li ul.children li a {
-
-  }
-  
-  .nav li ul.sub-menu li a:hover,
-  .nav li ul.children li a:hover {
-     background-color: #cccccc;
+    padding-left: 10px;
+    border-right: 0;
+    display: block;
+    width: 160px;
   }
   
   /* line 99, ../scss/breakpoints/_768up.scss */

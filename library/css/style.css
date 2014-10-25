@@ -2393,6 +2393,12 @@ you can add resource intensive styles.
     display: block;
     width: 160px;
   }
+  
+  .nav li ul.sub-menu li a:hover,
+  .nav li ul.children li a:hover {
+     background-color: #cccccc;
+  }
+  
   /* line 99, ../scss/breakpoints/_768up.scss */
   .nav li ul.sub-menu li:last-child a,
   .nav li ul.children li:last-child a {

@@ -2391,7 +2391,7 @@ you can add resource intensive styles.
     padding-left: 10px;
     border-right: 0;
     display: block;
-    width: 180px;
+    width: 160px;
   }
   /* line 99, ../scss/breakpoints/_768up.scss */
   .nav li ul.sub-menu li:last-child a,

@@ -2374,7 +2374,6 @@ you can add resource intensive styles.
     overflow: hidden;
     visibility: hidden;
     z-index: 8999;
-    background-color: #cccccc;
     /* highlight sub-menu current page */
   }
   /* line 80, ../scss/breakpoints/_768up.scss */

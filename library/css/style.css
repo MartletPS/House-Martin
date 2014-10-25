@@ -1692,7 +1692,7 @@ POSTS & CONTENT STYLES
 .hentry header {
   margin: 1em 0;
   padding: 0 1em;
-  border-left: 4px solid;
+  border-top: 4px solid;
 }
 /* line 270, ../scss/breakpoints/_base.scss */
 .hentry header a {

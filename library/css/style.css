@@ -2932,7 +2932,5 @@ article.category-about header {
   display: block;
   height: 7px;
   width: 100%;
-  position: absolute;
-  bottom: 0;
   z-index: 9999;
 }

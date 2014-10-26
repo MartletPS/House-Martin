@@ -2925,7 +2925,8 @@ article.category-about header {
 
 /* ADDED IN BY BEN */
 .article_frontpage_fade {
-  background-image: url('http://www.martlet.ca/wp-content/themes/House-Martin/library/images/white-trans.gif');
+  background-color:#ffffff;
+  /*background-image: url('http://www.martlet.ca/wp-content/themes/House-Martin/library/images/white-trans.gif'); */
   background-position: center bottom;
   background-repeat: repeat-x;
   display: block;

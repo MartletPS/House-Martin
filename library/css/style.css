@@ -1737,7 +1737,7 @@ POSTS & CONTENT STYLES
 span.author {
    float: left;
 }
-
+                                       
 .updated {
    float: right;
 }
@@ -1756,6 +1756,7 @@ span.author {
 }
 /* line 325, ../scss/breakpoints/_base.scss */
 .entry-content p {
+  width: 100%;
 }
 
 /* line 350, ../scss/breakpoints/_base.scss */

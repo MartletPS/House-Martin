@@ -25,7 +25,7 @@
 								</header>
 
 								<section class="entry-content cf">
-									<?php the_excerpt(); ?>
+									<div class="frontpage_fade"><?php the_excerpt(); ?></div>
 								</section>
 
                         <!--

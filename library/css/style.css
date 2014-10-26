@@ -1756,10 +1756,13 @@ span.author {
 }
 /* line 325, ../scss/breakpoints/_base.scss */
 .entry-content p {
+}
+
+.frontpage_fade {
   position: relative;
 }
 
-.entry-content p:after {
+.frontpage_fade:after {
   content: '';
   display: block;
   position: absolute;

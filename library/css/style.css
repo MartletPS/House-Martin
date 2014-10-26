@@ -2394,7 +2394,7 @@ you can add resource intensive styles.
     background-color: #000000;
     width: 160px;
   }
-  
+
   /* line 99, ../scss/breakpoints/_768up.scss */
   .nav li ul.sub-menu li:last-child a,
   .nav li ul.children li:last-child a {
@@ -2921,4 +2921,17 @@ article.category-humour header {
 article.category-about header {
   border-left-color: #000;
   border-left-color: #323944;
+}
+
+/* ADDED IN BY BEN */
+.article_frontpage_fade {
+  background-image: url('http://www.martlet.ca/wp-content/themes/House-Martin/library/images/white-trans.gif');
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  display: block;
+  height: 7px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 9999;
 }

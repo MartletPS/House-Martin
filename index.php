@@ -11,7 +11,7 @@
 
                         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" class="article_frontpage">
+							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
 
 								<header class="article-header">
 
@@ -42,7 +42,8 @@
 								</footer>
 					    -->
 
-							</article>
+							<div class="article_frontpage_fade"></div>
+                                                        </article>
 
 							<?php endwhile; ?>
 

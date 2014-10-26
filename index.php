@@ -41,8 +41,6 @@
 
 								</footer>
 					    -->
-
-							<div class="article_frontpage_fade"></div>
                                                         </article>
 
 							<?php endwhile; ?>

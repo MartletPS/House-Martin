@@ -1756,8 +1756,26 @@ span.author {
 }
 /* line 325, ../scss/breakpoints/_base.scss */
 .entry-content p {
-   
+  position: relative;
 }
+
+.entry-content p:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,0)));
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+  background:    -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  background:     -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  background:      -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  background:         linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+}
+
 /* line 350, ../scss/breakpoints/_base.scss */
 .entry-content table {
   width: 100%;
@@ -2921,16 +2939,4 @@ article.category-humour header {
 article.category-about header {
   border-left-color: #000;
   border-left-color: #323944;
-}
-
-/* ADDED IN BY BEN */
-.article_frontpage_fade {
-  background-color:#ff0000;
-  /*background-image: url('http://www.martlet.ca/wp-content/themes/House-Martin/library/images/white-trans.gif'); */
-  background-position: center bottom;
-  background-repeat: repeat-x;
-  display: block;
-  height: 7px;
-  width: 100%;
-  z-index: 9999;
 }

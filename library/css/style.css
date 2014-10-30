@@ -1690,7 +1690,7 @@ POSTS & CONTENT STYLES
 }
 /* line 269, ../scss/breakpoints/_base.scss */
 .hentry header {
-  padding-top: 1em;
+  padding-top: .5em;
   border-top: 4px solid;
 }
 /* line 270, ../scss/breakpoints/_base.scss */
@@ -1745,7 +1745,7 @@ span.author {
 /* line 322, ../scss/breakpoints/_base.scss */
 .entry-content {
   padding: 0;
-  margin: -1em 1em;
+  margin: 2em 1em;
   /*
   image alignment on a screen this size may be
   a bit difficult. It's set to start aligning

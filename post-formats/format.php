@@ -31,7 +31,6 @@
                   </p>
 
                 </header> 
-                <br />
                 <?php // end article header ?>
 
                 <section class="entry-content cf" itemprop="articleBody">

@@ -18,12 +18,14 @@
 									<h1 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
 
 										<p class="byline vcard">
-									    	    if ( function_exists( 'coauthors_posts_links' ) ) {
-                                                                                        coauthors_posts_links();
-                                                                                        <?php printf( __( '<span class="author">By %3$s</span> <time class="updated" datetime="%1$s">%2$s</time>', 'bonestheme' ), get_the_time('Y-m-j'), get_the_time(get_option('date_format')), coauthors_posts_link() ); ?>
-                                                                                    } else {
-                                                                                        <?php printf( __( '<span class="author">By %3$s</span> <time class="updated" datetime="%1$s">%2$s</time>', 'bonestheme' ), get_the_time('Y-m-j'), get_the_time(get_option('date_format')), the_author_posts_link() ); ?>
-                                                                                    }
+									    	    <?php 
+                                                                                        if ( function_exists( 'coauthors_posts_links' ) ) {
+                                                                                            coauthors_posts_links();
+                                                                                            printf( __( '<span class="author">By %3$s</span> <time class="updated" datetime="%1$s">%2$s</time>', 'bonestheme' ), get_the_time('Y-m-j'), get_the_time(get_option('date_format')), coauthors_posts_link() ); 
+                                                                                        } else {
+                                                                                            printf( __( '<span class="author">By %3$s</span> <time class="updated" datetime="%1$s">%2$s</time>', 'bonestheme' ), get_the_time('Y-m-j'), get_the_time(get_option('date_format')), the_author_posts_link() );
+                                                                                        }
+                                                                                    ?>
                                                                                 </p>
 
 

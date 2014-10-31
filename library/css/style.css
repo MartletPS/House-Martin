@@ -1755,7 +1755,6 @@ span.author {
 }
 
 .fadeout {
-    position: absolute; 
     bottom: 0em;
     width:100%;
     height: 4em;

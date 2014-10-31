@@ -1754,12 +1754,6 @@ span.author {
   */
 }
 
-.fadeout {
-  background: -webkit-linear-gradient(#000, #fff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 @-moz-document url-prefix() {
   .fadeout {
     -webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5) 50%, rgba(0,0,0,1));

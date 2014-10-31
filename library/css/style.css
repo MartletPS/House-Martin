@@ -1816,7 +1816,7 @@ span.author {
 /* line 413, ../scss/breakpoints/_base.scss */
 .entry-content img {
   margin: 0 0 1.5em 0;
-  max-width: 100%;
+  max-width: auto;
   height: auto;
 }
 /* line 433, ../scss/breakpoints/_base.scss */

@@ -33,6 +33,7 @@
 
 								<section class="entry-content cf">
                                                                         <?php the_excerpt(); ?>
+                                                                        <div class="fadeout"></div>
 								</section>
 
                         <!--

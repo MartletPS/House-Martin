@@ -32,8 +32,9 @@
 								</header>
 
 								<section class="entry-content cf">
+                                                                        <div class="fadeout">
                                                                         <?php the_excerpt(); ?>
-                                                                        <div class="fadeout"></div>
+                                                                        </div>
 								</section>
 
                         <!--

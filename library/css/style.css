@@ -1756,12 +1756,16 @@ span.author {
 
 @-moz-document url-prefix() {
   .fadeout {
-    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5) 50%, rgba(0,0,0,1));
-    -webkit-mask-image: linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5) 50%, rgba(0,0,0,1));
+    -moz-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5) 50%, rgba(0,0,0,1));
+    -moz-mask-image: linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5) 50%, rgba(0,0,0,1));
     background: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5) 50%, rgba(0,0,0,1)); /*Safari 5.1-6*/
     background: -o-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5) 50%, rgba(0,0,0,1)); /*Opera 11.1-12*/
     background: -moz-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5) 50%, rgba(0,0,0,1)); /*Fx 3.6-15*/
     background: linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5) 50%, rgba(0,0,0,1)); /*Standard*/
+    
+    background: -moz-linear-gradient(#000, #fff);
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
   }
 }
 

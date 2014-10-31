@@ -2921,10 +2921,3 @@ article.category-about header {
   border-left-color: #000;
   border-left-color: #323944;
 }
-
-.white-trans {
-  position:absolute;
-  width:100%;
-  height:7px;
-  bottom:0;
-}

@@ -32,7 +32,6 @@
 								</header>
 
 								<section class="entry-content cf">
-									<img class="white-trans" src="http://www.martlet.ca/wp-content/themes/House-Martin/library/images/white-trans.gif" alt="" />
                                                                         <?php the_excerpt(); ?>
 								</section>
 

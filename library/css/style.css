@@ -1754,6 +1754,12 @@ span.author {
   */
 }
 
+.fadeout {
+  background: -webkit-linear-gradient(#000, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* line 325, ../scss/breakpoints/_base.scss */
 .entry-content p {
 }

@@ -1620,12 +1620,7 @@ HEADER STYLES
   background-color: white;
 }
 
-/* line 161, ../scss/breakpoints/_base.scss */
-#logo {
-  margin-top: 10px;
-  width: 250px;
-  height: 80px;
-}
+
 /* line 165, ../scss/breakpoints/_base.scss */
 #logo a {
   color: black;
@@ -2226,7 +2221,7 @@ and (max-device-width : 480px) {
   Generic Mobile site styling.
   
   ******************************************************************/
-  
+
   #logo {
     margin-top: 10px;
     width: 200px;
@@ -2263,6 +2258,14 @@ tweeners.
   anymore, so just be aware that if you drop
   them in here, they won't work.
   */
+  
+
+  #logo {
+    margin-top: 10px;
+    width: 250px;
+    height: 80px;
+  }
+
   /*********************
   NAVIGATION STYLES
   *********************/
@@ -2357,6 +2360,12 @@ you can add resource intensive styles.
   /*********************
   GENERAL STYLES
   *********************/
+  #logo {
+    margin-top: 10px;
+    width: 250px;
+    height: 80px;
+  }  
+
   /*********************
   LAYOUT & GRID STYLES
   *********************/

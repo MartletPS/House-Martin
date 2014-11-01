@@ -1624,6 +1624,7 @@ HEADER STYLES
   margin-top: 10px;
   width: 180px;
   height: auto;
+  display:none;
 }
 
 /* line 165, ../scss/breakpoints/_base.scss */
@@ -2229,9 +2230,7 @@ and (max-device-width : 480px) {
   ******************************************************************/
 
   #logo {
-    margin-top: 10px;
-    width: 180px;
-    height: auto;
+    display:none;
   }
 }
 
@@ -2267,9 +2266,7 @@ tweeners.
   
 
   #logo {
-    margin-top: 10px;
-    width: 250px;
-    height: auto;
+    display:none;
   }
 
   /*********************
@@ -2371,6 +2368,7 @@ you can add resource intensive styles.
     margin-top: 10px;
     width: 250px;
     height: auto;
+    display:block;
   }
 
   /*********************
@@ -2574,6 +2572,7 @@ This is for the larger monitors and possibly full screen viewers.
     margin-top: 10px;
     width: 250px;
     height: auto;
+    display:block;
   }
 
   /*********

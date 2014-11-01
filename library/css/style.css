@@ -2215,7 +2215,7 @@ This includes both smaller and larger mobile device screens, and
 targets the mobile site in specific.
 *********************/
 @media only screen
-and (min-device-width : 200px)
+and (min-device-width : 176px)
 and (max-device-width : 480px) {
   /******************************************************************
   Site Name:

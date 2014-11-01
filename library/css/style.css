@@ -802,7 +802,7 @@ them however you see fit.
     float: left;
     padding-right: 0.75em;
     width: 75%;
-  }
+  }  
 }
 /* Portrait tablet to landscape */
 @media (min-width: 768px) and (max-width: 1029px) {
@@ -1468,7 +1468,14 @@ loaded by mobile devices. You want to keep it as minimal as
 possible. This is called at the top of the main stylsheet
 and will be used across all viewports.
 
-******************************************************************/
+******************************************************************/    
+
+/* IE VIEWPORT FIX */
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
 /*********************
 GENERAL STYLES
 *********************/

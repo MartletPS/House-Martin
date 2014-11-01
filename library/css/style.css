@@ -1641,6 +1641,7 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
+
 /* line 182, ../scss/breakpoints/_base.scss */
 .nav {
   border-bottom: 0;
@@ -2274,6 +2275,7 @@ tweeners.
   /*********************
   NAVIGATION STYLES
   *********************/
+
   /* .menu is clearfixed inside mixins.scss */
   /* line 33, ../scss/breakpoints/_481up.scss */
   .menu {
@@ -2385,6 +2387,7 @@ you can add resource intensive styles.
   /*********************
   NAVIGATION STYLES
   *********************/
+
   /* line 42, ../scss/breakpoints/_768up.scss */
   .nav {
     border: 0;
@@ -2545,6 +2548,7 @@ you can add resource intensive styles.
   .wrap {
     width: 1040px;
   }
+
 }
 /*********************
 LARGE VIEWING SIZE
@@ -2575,6 +2579,7 @@ This is for the larger monitors and possibly full screen viewers.
   /*********
    Menu styling
    *******/
+
   /* line 21, ../scss/breakpoints/_1240up.scss */
   #menu-header li {
     width: 160px;

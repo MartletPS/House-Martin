@@ -1622,8 +1622,8 @@ HEADER STYLES
 
 #logo {
   margin-top: 10px;
-  width: 1px;
-  height: 1px;
+  width: 10px;
+  height: auto;
 }
 
 /* line 165, ../scss/breakpoints/_base.scss */
@@ -2230,7 +2230,7 @@ and (max-device-width : 480px) {
   #logo {
     margin-top: 10px;
     width: 180px;
-    height: 58px;
+    height: auto;
   }
 }
 
@@ -2268,7 +2268,7 @@ tweeners.
   #logo {
     margin-top: 10px;
     width: 250px;
-    height: 80px;
+    height: auto;
   }
 
   /*********************
@@ -2368,8 +2368,8 @@ you can add resource intensive styles.
   #logo {
     margin-top: 10px;
     width: 250px;
-    height: 80px;
-  }  
+    height: auto;
+  }
 
   /*********************
   LAYOUT & GRID STYLES
@@ -2564,6 +2564,12 @@ This is for the larger monitors and possibly full screen viewers.
   /* line 12, ../scss/breakpoints/_1240up.scss */
   .wrap {
     width: 1200px;
+  }
+  
+  #logo {
+    margin-top: 10px;
+    width: 250px;
+    height: auto;
   }
 
   /*********

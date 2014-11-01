@@ -2210,7 +2210,7 @@ This includes both smaller and larger mobile device screens, and
 targets the mobile site in specific.
 *********************/
 @media only screen
-and (min-device-width : 1px)
+and (min-device-width : 10px)
 and (max-device-width : 480px) {
   /******************************************************************
   Site Name:
@@ -2225,7 +2225,7 @@ and (max-device-width : 480px) {
   #logo {
     margin-top: 10px;
     width: 10px;
-    height: 65px;
+    height: 3px;
   }
 }
 

@@ -1,4 +1,4 @@
-/* Made with Bones: http://themble.com/bones :) */
+\/* Made with Bones: http://themble.com/bones :) */
 /******************************************************************
 Site Name: Martlet.ca
 Author: Jeremy Vernon (jeremy@jeremyvernon.com)
@@ -806,10 +806,6 @@ them however you see fit.
 }
 /* Portrait tablet to landscape */
 @media (min-width: 768px) and (max-width: 1029px) {
-  #logo {
-    display:none;
-  }  
-  
   /* line 86, ../scss/partials/_grid.scss */
   .t-all {
     float: left;
@@ -2369,10 +2365,7 @@ you can add resource intensive styles.
   GENERAL STYLES
   *********************/
   #logo {
-    margin-top: 10px;
-    width: 250px;
-    height: auto;
-    display:block;
+    display:none;
   }
 
   /*********************

@@ -50,11 +50,11 @@
 									<h3 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
 									<p class="byline vcard">
                                                                           <?php
-                                                                            if ( function_exists( 'coauthors_posts_links' ) ) {
-                                                                                printf( __( 'Posted <time class="updated" datetime="%1$s">%2$s</time> by <span class="author">%3$s</span> filed under %4$s.', 'bonestheme' ), get_the_time('Y-m-j'), get_the_time(get_option('date_format')),  coauthors_posts_links(null,null, null, null, false), get_the_term_list( $post->ID, 'custom_cat', ' ', ', ', '' ) );
-                                                                            } else {
-                                                                                printf( __( 'Posted <time class="updated" datetime="%1$s">%2$s</time> by <span class="author">%3$s</span> filed under %4$s.', 'bonestheme' ), get_the_time('Y-m-j'), get_the_time(get_option('date_format')),  the_author_posts_link(), get_the_term_list( $post->ID, 'custom_cat', ' ', ', ', '' ) );
-                                                                            }
+                                                                              if ( function_exists( 'coauthors_posts_links' ) ) {
+                                                                                  printf( __( '<span class="author">%3$s</span> <time class="updated" datetime="%1$s">%2$s</time>', 'bonestheme' ), get_the_time('Y-m-j'), get_the_time(get_option('date_format')),  coauthors_posts_links(null,null, 'By ', null, false) );
+                                                                              } else {
+                                                                                  printf( __( '<span class="author">%3$s</span> <time class="updated" datetime="%1$s">%2$s</time>', 'bonestheme' ), get_the_time('Y-m-j'), get_the_time(get_option('date_format')), the_author_posts_link() );
+                                                                              }
                                                                           ?>
                                                                         </p>
 

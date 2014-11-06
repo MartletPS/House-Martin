@@ -2522,6 +2522,20 @@ you can add resource intensive styles.
 
   /* end .footer-links */
 }
+
+/*********************
+LOGO FIRST APPEARS AT THIS PIXEL WIDTH
+*********************/
+
+@media only screen and (min-width: 960px) {
+  #logo {
+    margin-top: 10px;
+    width: 250px;
+    height: auto;
+    display:block;
+  }
+}
+
 /*********************
 DESKTOP
 This is the average viewing window. So Desktops, Laptops, and

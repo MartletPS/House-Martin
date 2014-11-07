@@ -2,7 +2,9 @@
 <?php
 if ( is_admin_bar_showing() ) {
     echo "ADMIN BAR";
-}
+} else {
+    echo "NO ADMIN BAR";
+} // else    
 ?>
 
 			<div id="content">

@@ -1,4 +1,9 @@
 <?php get_header(); ?>
+<?php
+if ( is_admin_bar_showing() ) {
+    echo "ADMIN BAR";
+}
+?>
 
 			<div id="content">
 

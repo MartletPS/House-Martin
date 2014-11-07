@@ -7,16 +7,6 @@
                     <div id="main" class="m-all t-2of3 d-5of7 cf" role="main">
 
                         <?php if(function_exists('show_flexslider_rotator')) echo show_flexslider_rotator( 'index' ); ?>
-                        
-
-<?php
-echo "ST:";
-if ( is_admin_bar_showing() ) {
-    echo "ADMIN BAR";
-} else {
-    echo "NO ADMIN BAR";
-} // else
-?>
 
                         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

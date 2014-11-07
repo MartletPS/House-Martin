@@ -53,13 +53,7 @@ function bones_head_cleanup() {
 	// remove Wp version from scripts
 	add_filter( 'script_loader_src', 'bones_remove_wp_ver_css_js', 9999 );
 
-        add_filter( 'show_admin_bar' , 'custom_admin_bar');
-
 } /* end bones head cleanup */
-
-function custom_admin_bar($content) {
-	return ( current_user_can( 'administrator' ) ) ? $content : false;
-}
 
 // A better title
 // http://www.deluxeblogtips.com/2012/03/better-title-meta-tag.html

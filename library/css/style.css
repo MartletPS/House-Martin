@@ -2937,10 +2937,10 @@ Navigation Overrides
 }
 
 
-#menu-item-7590,#menu-main-nav #menu-item-11, #menu-main-nav #menu-item-7590, #menu-header #menu-item-11, #menu-header #menu-item-7590 {
+#menu-main-nav #menu-item-11, #menu-main-nav #menu-item-7590, #menu-header #menu-item-11, #menu-header #menu-item-7590 {
   border-bottom: 4px solid #cc00ff;
 }
-#menu-item-7590: hover,#menu-main-nav #menu-item-11 :hover, #menu-main-nav #menu-item-7590 :hover, #menu-header #menu-item-11 :hover, #menu-header #menu-item-7590 :hover {
+#menu-main-nav #menu-item-11 :hover, #menu-main-nav #menu-item-7590 :hover, #menu-header #menu-item-11 :hover, #menu-header #menu-item-7590 :hover {
   background-color: #cc00ff;
 }
 

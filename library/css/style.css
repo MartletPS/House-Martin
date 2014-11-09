@@ -2936,6 +2936,10 @@ Navigation Overrides
   background-color: #000000;
 }
 
+.menu-item-14104:hover {
+  background-color: #cc00ff;
+}
+
 /*** Slider Styles
 ***/
 /* line 224, ../scss/style.scss */

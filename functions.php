@@ -216,6 +216,20 @@ function bones_fonts() {
 
 add_action('wp_print_styles', 'bones_fonts');
 
+/* adds infinite scroll code */
+function mytheme_infinite_scroll_init() {
+add_theme_support( 'infinite-scroll', array(
+'container' => 'content',
+'render' => 'mytheme_infinite_scroll_render',
+'footer' => 'wrapper',
+) );
+}
+add_action( 'init', 'mytheme_infinite_scroll_init' );
+function rootdip_infinite_scroll_render() {
+    get_template_part( 'loop' );
+}
+
+
 
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>

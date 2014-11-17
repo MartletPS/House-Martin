@@ -138,6 +138,11 @@ sub vcl_recv {
   
   #Added this in.
   #Returns cookies for admin.
+  
+  if (req.url ~ "wp-(login|admin)") {
+     return(pass);
+  }
+
   if (req.http.Cookie ~ "(comment_author|wordpress_[a-f0-9]+|wp-postpass|wordpress_logged_in)") {
     return (pass);
   }
@@ -148,7 +153,7 @@ sub vcl_recv {
      set req.http.Cookie = regsub(req.http.Cookie, "^;\s*", "");
      
      #Drop any cookies sent to WordPress...
-	if (!(req.url ~ "wp-(login|admin)|mn")) {
+	if (!(req.url ~ "wp-(login|admin)")) {
 		unset req.http.cookie;
 	}
 }
@@ -158,7 +163,7 @@ sub vcl_recv {
 
 #Drop any cooikies WordPress tries to send back to the client.
 sub vcl_fetch {
-	if (!(req.url ~ "wp-(login|admin)|mn")) {
+	if (!(req.url ~ "wp-(login|admin)")) {
 		unset beresp.http.set-cookie;
 	}
 }

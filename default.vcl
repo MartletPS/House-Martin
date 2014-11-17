@@ -138,11 +138,6 @@ sub vcl_recv {
   
   #Added this in.
   #Returns cookies for admin.
-  
-  if (req.url ~ "wp-(login|admin)") {
-     return(pass);
-  }
-
   if (req.http.Cookie ~ "(comment_author|wordpress_[a-f0-9]+|wp-postpass|wordpress_logged_in)") {
     return (pass);
   }

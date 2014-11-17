@@ -9,8 +9,7 @@
                         <?php if(function_exists('show_flexslider_rotator')) echo show_flexslider_rotator( 'index' ); ?>
                         
                         <div id="postsContent">
-                        <?php
-                        while (have_posts()) : the_post();
+                        <?php while (have_posts()) : the_post(); ?>
 
     <article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
         <header class="article-header">
@@ -31,8 +30,7 @@
             </div>
         </section>
     </article>
-                        endwhile;
-                        ?>
+                        <?php endwhile; ?>
                         </div>
 
 									<?php bones_page_navi(); ?>

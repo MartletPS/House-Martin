@@ -146,15 +146,16 @@ sub vcl_recv {
      set req.http.Cookie = regsuball(req.http.Cookie, "(^|;\s*)(_[_a-z]+|has_js|is_unique)=[^;]*","");
    #remove a ";" prefix, if present.
      set req.http.Cookie = regsub(req.http.Cookie, "^;\s*", "");
-}
-
-#Drop any cookies sent to WordPress.
-
-sub vcl_recv {
+     
+     #Drop any cookies sent to WordPress...
 	if (!(req.url ~ "wp-(login|admin)|mn")) {
 		unset req.http.cookie;
 	}
 }
+
+#Drop any cookies sent to WordPress.
+
+
 #Drop any cooikies WordPress tries to send back to the client.
 sub vcl_fetch {
 	if (!(req.url ~ "wp-(login|admin)|mn")) {

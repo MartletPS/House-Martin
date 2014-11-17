@@ -7,12 +7,14 @@
                     <div id="main" class="m-all t-2of3 d-5of7 cf" role="main">
 
                         <?php if(function_exists('show_flexslider_rotator')) echo show_flexslider_rotator( 'index' ); ?>
-
+                        
+                        <div id="postsContent">
                         <?php
                         while (have_posts()) : the_post();
                             get_template_part( 'content', get_post_format() );
                         endwhile;
                         ?>
+                        </div>
 
 									<?php bones_page_navi(); ?>
 

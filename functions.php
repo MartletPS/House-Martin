@@ -216,10 +216,7 @@ function bones_fonts() {
 
 add_action('wp_print_styles', 'bones_fonts');
 
-/* adds infinite scroll code */
-add_theme_support( 'infinite-scroll', array(
-    'container'    => 'content',
-) );
+
 
 
 

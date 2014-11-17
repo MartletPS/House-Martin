@@ -1,7 +1,7 @@
 
     <article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
         <header class="article-header">
-            <h1 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+            <h1 class="h2 entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
             <p class="byline vcard">
                 <?php
                     if ( function_exists( 'coauthors_posts_links' ) ) {

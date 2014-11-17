@@ -7,13 +7,12 @@
                     <div id="main" class="m-all t-2of3 d-5of7 cf" role="main">
 
                         <?php if(function_exists('show_flexslider_rotator')) echo show_flexslider_rotator( 'index' ); ?>
-                        
-                        <div id="postsContent">
+
                         <?php while (have_posts()) : the_post(); ?>
 
     <article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
         <header class="article-header">
-            <h1 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+            <h1 class="h2 entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
             <p class="byline vcard">
                 <?php
                     if ( function_exists( 'coauthors_posts_links' ) ) {
@@ -30,8 +29,8 @@
             </div>
         </section>
     </article>
+
                         <?php endwhile; ?>
-                        </div>
 
 									<?php bones_page_navi(); ?>
 

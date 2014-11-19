@@ -3012,14 +3012,3 @@ article.category-about header {
   border-left-color: #000;
   border-left-color: #323944;
 }
-
-/* Infinite Scroll */
-/* Hides navigation links and site footer when infinite scroll is active */
-body .infinite-scroll .navigation,
-body .infinite-scroll.neverending #footer {
- display: none;
-}
-/* Shows the footer again in case all posts have been loaded */
-body .infinity-end.neverending #footer {
- display: block;
-}

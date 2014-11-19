@@ -3023,3 +3023,26 @@ body .infinite-scroll.neverending #footer {
 body .infinity-end.neverending #footer {
  display: block;
 }
+
+/* Infinite Scroll - footer content */
+#infinite-footer .container{
+width: 960px !important;
+height:400px;
+background-color: #a9cf38;
+border-top: 1px solid #7f9c2a;
+color: #fff;
+}
+ 
+#infinite-footer .container a{
+color: #fff;
+}
+ 
+#infinite-footer .container a:hover{
+text-decoration: underline;
+color: #fff;
+}
+ 
+/* Inifnite Scroll - Spinner */
+.infinite-loader{
+color: #929292;
+}

@@ -1,4 +1,4 @@
-			<footer id="footerSpace" class="footer" role="contentinfo">
+			<footer class="footer" role="contentinfo">
 
 				<div id="inner-footer" class="wrap cf">
 
@@ -18,7 +18,7 @@
 						)); ?>
 					</nav>
 
-                    <div class="footer-content">
+                    <div id="footerSpace" class="footer-content">
                            <div class="footer-navigation">
                                <h3>Navigation</h3>
 

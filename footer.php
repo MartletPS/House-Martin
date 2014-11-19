@@ -18,7 +18,7 @@
 						)); ?>
 					</nav>
 
-                    <div id="footerSpace" class="footer-content">
+                    <div class="footer-content">
                            <div class="footer-navigation">
                                <h3>Navigation</h3>
 

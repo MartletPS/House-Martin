@@ -218,8 +218,7 @@ add_action('wp_print_styles', 'bones_fonts');
 
 /* adds infinite scroll code */
 add_theme_support( 'infinite-scroll', array(
-    'container'    => 'postsContent',
-    'footer'       => 'footerSpace'
+    'container'    => 'postsContent'
 ) );
 
 

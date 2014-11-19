@@ -3026,10 +3026,10 @@ body .infinity-end.neverending #footer {
 
 /* Infinite Scroll - footer content */
 #infinite-footer .container{
-width: 960px !important;
+
 background-color: #000000 !important;
 border-top: 1px solid #7f9c2a;
-color: #fff;
+color: #fff !important;
 }
  
 #infinite-footer .container a{

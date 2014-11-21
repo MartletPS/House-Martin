@@ -2590,7 +2590,7 @@ This is for the larger monitors and possibly full screen viewers.
     margin-top: 10px;
     width: 250px;
     height: auto;
-    display:block;
+    display:inline-block;
   }
 
   /*********

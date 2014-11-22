@@ -14,8 +14,11 @@
                 */
               ?>
               <article id="post-<?php the_ID(); ?>" <?php post_class('cf'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-                
-                <header class="article-header">
+                <?php if (in_category('features') || in_category('featured-story')) : ?>
+                  <header class="article-header-features">
+                <?php else : ?>
+                  <header class="article-header">
+                <?php endif; ?>
                   <h1 class="entry-title single-title" itemprop="headline"><?php the_title() ?></h1>
 
                   <p class="byline vcard">

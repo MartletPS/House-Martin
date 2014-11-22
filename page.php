@@ -13,6 +13,13 @@
 								<header class="article-header">
 
 									<h1 class="page-title" itemprop="headline"><?php the_title(); ?></h1>
+                                                                        <?php
+                                                                            if (in_category('features') || in_category('featured-story')) {
+                                                                                echo "<h1 class=\"page-title-features custom-post-type-title\" itemprop=\"headline\">".the_title();."</h1>";
+                                                                            } else {
+									        echo "<h1 class=\"page-title custom-post-type-title\" itemprop=\"headline\">".the_title();."</h1>";
+                                                                            }
+                                                                        ?>
 
 								<!--	<p class="byline vcard">
                                                                                 <?php

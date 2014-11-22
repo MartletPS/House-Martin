@@ -28,10 +28,16 @@
 							<article id="post-<?php the_ID(); ?>" <?php post_class('cf'); ?> role="article">
 
 								<header class="article-header">
+                                                                        <?php
+                                                                            if (in_category('features') || in_category('featured-story')) {
+                                                                                echo "<h1 class=\"single-title-features custom-post-type-title\">".the_title();."</h1>";
+                                                                            } else {
+									        echo "<h1 class=\"single-title custom-post-type-title\">".the_title();."</h1>";
+                                                                            }
+                                                                        ?>
 
-									<h1 class="single-title custom-post-type-title"><?php the_title(); ?></h1>
 									<p class="byline vcard">
-									
+
                                                                           <?php
                                                                               if ( function_exists( 'coauthors_posts_links' ) ) {
                                                                                   printf( __( '<span class="author">%3$s</span> <time class="updated" datetime="%1$s">%2$s</time>', 'bonestheme' ), get_the_time('Y-m-j'), get_the_time(get_option('date_format')),  coauthors_posts_links(null,null, 'By ', null, false) );

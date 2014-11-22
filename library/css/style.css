@@ -3014,6 +3014,5 @@ article.category-about header {
 }
 
 .article-header {
-  margin-left:auto;
-  margin-right:auto;
+text-align:center;
 }

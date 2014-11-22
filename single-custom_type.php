@@ -98,15 +98,15 @@
 							<?php endif; ?>
 
 						</div>
-                                                <?php
-                                                  if (is_category('features') || is_category('featured-story')) {
-                                                      // no sidebar for category features
-        
-                                                  } else {
-                                                      // otherwise show sidebar
-                                                      get_sidebar();
-                                                  }
-                                                ?>
+                                        <?php
+                                          if (in_category('features') || in_category('featured-story')) {
+                                              // no sidebar for category features
+
+                                          } else {
+                                              // otherwise show sidebar
+                                              get_sidebar();
+                                          }
+                                        ?>
 
 				</div>
 

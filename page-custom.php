@@ -98,7 +98,7 @@
 						</div>
 
                                         <?php
-                                          if (is_category('features') || is_category('featured-story')) {
+                                          if (in_category('features') || in_category('featured-story')) {
                                               // no sidebar for category features
 
                                           } else {

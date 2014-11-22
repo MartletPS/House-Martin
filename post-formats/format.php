@@ -13,7 +13,12 @@
                  * folder and replace the function below with the contents of the "format.php" file.
                 */
               ?>
-              <article id="post-<?php the_ID(); ?>" <?php post_class('cf'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+              <?php if (in_category('features') || in_category('featured-story')) : ?>
+                <article id="post-<?php the_ID(); ?>" <?php post_class('cf featurearticle'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+              <?php else : ?>
+                <article id="post-<?php the_ID(); ?>" <?php post_class('cf'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+              <?php endif; ?>
+
                 <?php if (in_category('features') || in_category('featured-story')) : ?>
                   <header class="article-header-features">
                 <?php else : ?>

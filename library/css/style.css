@@ -1724,11 +1724,6 @@ POSTS & CONTENT STYLES
   margin: 0;
 }
 
-.single-title-features,.page-title-features {
-margin-left:auto;
-margin-right:auto;
-}
-
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
 /* general post style */
@@ -3016,4 +3011,9 @@ article.category-humour header {
 article.category-about header {
   border-left-color: #000;
   border-left-color: #323944;
+}
+
+.article-header {
+  margin-left:auto;
+  margin-right:auto;
 }

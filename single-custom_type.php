@@ -99,7 +99,7 @@
 
 						</div>
                                                 <?php
-                                                  if (is_category('features')) {
+                                                  if (is_category('features') || is_category('featured-story')) {
                                                       // no sidebar for category features
         
                                                   } else {

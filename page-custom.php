@@ -27,13 +27,8 @@
 
 								<header class="article-header">
 
-                                                                        <?php
-                                                                            if (in_category('features') || in_category('featured-story')) {
-                                                                                echo "<h1 class=\"page-title-features custom-post-type-title\">".the_title();."</h1>";
-                                                                            } else {
-									        echo "<h1 class=\"page-title custom-post-type-title\">".the_title();."</h1>";
-                                                                            }
-                                                                        ?>
+								<h1 class="page-title custom-post-type-title"><?php the_title(); ?></h1>
+
 
 									<p class="byline vcard">
                                                                                 <?php

@@ -17,11 +17,10 @@
               <article id="post-<?php the_ID(); ?>" <?php post_class('cf'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
                 <header class="article-header">
-                  <?php
-                      if (in_category('features') || in_category('featured-story')) {
-                          echo "<h1 class=\"entry-title single-title-features\" itemprop=\"headline\">".the_title();."</h1>";
-                      } else {
-			  echo "<h1 class=\"entry-title single-title\" itemprop=\"headline\">".the_title();."</h1>";
+                  <?php if (in_category('features') || in_category('featured-story')): ?>
+                          <h1 class="entry-title single-title-features" itemprop="headline"><?php the_title(); ?></h1>
+                  <?php else : ?>
+			  <h1 class="entry-title single-title" itemprop="headline"><?php the_title(); ?></h1>
                       }
                   ?>
 

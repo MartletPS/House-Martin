@@ -20,9 +20,9 @@
                   <?php if (in_category('features') || in_category('featured-story')): ?>
                           <h1 class="entry-title single-title-features" itemprop="headline"><?php the_title(); ?></h1>
                   <?php else : ?>
-			  <h1 class="entry-title single-title" itemprop="headline"><?php the_title(); ?></h1>
+			  <h1 class="entry-title single-title" itemprop="headline"><?php the_title() ?></h1>
                       }
-                  ?>
+                  <?php endif; ?>
 
                   <p class="byline vcard">
                     <?php

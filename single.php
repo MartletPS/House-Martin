@@ -45,14 +45,15 @@
 
 					</div>
 
-                                                <?php
-                                                if (is_category('features')) {
-                                                // no sidebar for category features
-                                                } else {
-                                                // otherwise show sidebar
-                                                (get_sidebar(''))
-                                                }
-                                                ?>
+                                        <?php
+                                          if (is_category('features')) {
+                                              // no sidebar for category features
+
+                                          } else {
+                                              // otherwise show sidebar
+                                              get_sidebar();
+                                          }
+                                        ?>
 
 				</div>
 

@@ -2960,18 +2960,18 @@ Navigation Overrides
 #menu-main-nav #menu-item-10, #menu-main-nav #menu-item-7590, #menu-header #menu-item-10, #menu-header #menu-item-7590 {
   border-bottom: 4px solid #323944;
 }
-#menu-item-14127 {
+#menu-item-14127,#menu-item-14127 a {
   background-color: #ffffff;
   color: #000000;
 }
-#menu-item-14127:hover,#menu-item-14127:active, {
+#menu-item-14127:hover,#menu-item-14127:active,#menu-item-14127 a:hover,#menu-item-14127 a:active {
   background-color: #000000;
   color: #ffffff;
 }
 
 .sub-menu {
   background-color: #000000;
-  color: #ffffff;  
+  color: #ffffff;
 }
 
 

@@ -3047,5 +3047,6 @@ article.category-about header {
   font-size: 2.6em;
 }
 
-.featurearticle {  
+.featurearticle {
+  width:100%;
 }

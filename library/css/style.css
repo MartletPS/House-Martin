@@ -2235,6 +2235,8 @@ and (max-device-width : 480px) {
   
   #flexslider_hg_index_wrapper {
     display:none;
+    height:0;
+    width:0;
   }
 }
 
@@ -2276,6 +2278,8 @@ tweeners.
 
   #flexslider_hg_index_wrapper {
     display:none;
+    height:0;
+    width:0;
   }
 
   /*********************
@@ -2615,6 +2619,11 @@ This is for the larger monitors and possibly full screen viewers.
     width: 250px;
     height: auto;
     display:inline-block;
+  }
+  
+
+  #flexslider_hg_index_wrapper {
+    display:block;
   }
 
   /*********

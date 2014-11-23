@@ -2961,7 +2961,7 @@ Navigation Overrides
   border-bottom: 4px solid #323944;
 }
 /* line 214, ../scss/style.scss */
-#menu-main-nav #menu-item-10 :hover, #menu-main-nav #menu-item-7590 :hover, #menu-header #menu-item-10 :hover, #menu-header #menu-item-7590 :hover,menu-item-has-children:hover,menu-item-14127:hover {
+#menu-main-nav #menu-item-10 :hover, #menu-main-nav #menu-item-7590 :hover, #menu-header #menu-item-10 :hover, #menu-header #menu-item-7590 :hover,.menu-item-has-children:hover,#menu-item-14127:hover {
   background-color: #000000;
 }
 

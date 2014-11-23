@@ -3031,7 +3031,7 @@ article.category-sports-lifestyle header {
 
 /* line 260, ../scss/style.scss */
 article.category-humour header {
-  border-top-color: #ffd200;  
+  border-top-color: #ffd200;
   border-left-color: #ffd200;
   border-bottom-color: #ffd200;
 }
@@ -3044,7 +3044,7 @@ article.category-about header {
 
 .article-header-features {
   text-align:center;
-  font-size: 2.6em;
+  font-size: 2em;
 }
 
 .featurearticle {

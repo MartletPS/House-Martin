@@ -2232,6 +2232,10 @@ and (max-device-width : 480px) {
   #logo {
     display:none;
   }
+  
+  #flexslider_hg_index_wrapper {
+    display:none;
+  }
 }
 
 /*********************
@@ -2266,6 +2270,11 @@ tweeners.
   
 
   #logo {
+    display:none;
+  }
+  
+
+  #flexslider_hg_index_wrapper {
     display:none;
   }
 
@@ -2366,6 +2375,11 @@ you can add resource intensive styles.
   *********************/
   #logo {
     display:none;
+  }
+  
+
+  #flexslider_hg_index_wrapper {
+    display:block;
   }
 
   /*********************
@@ -2534,6 +2548,11 @@ LOGO FIRST APPEARS AT THIS PIXEL WIDTH
     height: auto;
     display:block;
   }
+  
+
+  #flexslider_hg_index_wrapper {
+    display:block;
+  }
 }
 
 /*********************
@@ -2562,6 +2581,11 @@ you can add resource intensive styles.
     margin-top: 10px;
     width: 250px;
     height: auto;
+    display:block;
+  }
+  
+
+  #flexslider_hg_index_wrapper {
     display:block;
   }
 

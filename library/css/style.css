@@ -3069,5 +3069,6 @@ article.category-about header {
   z-index: 99;
   position: fixed;
   bottom: 0px;
+  background-color:#000000;
   background: url("http://www.martlet.ca/wp-content/themes/House-Martin/library/images/bottom-fade.png") bottom center no-repeat;
 }

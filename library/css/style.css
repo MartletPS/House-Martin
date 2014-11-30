@@ -3058,3 +3058,16 @@ article.category-about header {
 
 .featurearticle {
 }
+
+.frontpage_fade {
+  z-index: 1;
+}
+
+.bottom_fade {
+  width: 100%;
+  height: 20px;
+  z-index: 99;
+  position: fixed;
+  bottom: 0px;
+  background: url("http://www.martlet.ca/wp-content/themes/House-Martin/library/images/bottom-fade.png") bottom center no-repeat;
+}

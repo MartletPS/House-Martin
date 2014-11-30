@@ -1,4 +1,4 @@
-							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
+							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf frontpage_fade' ); ?> role="article">
 							    <header class="article-header">
 							        <h1 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
 							            <p class="byline vcard">
@@ -12,11 +12,11 @@
                                                                     </p>
 							    </header>
 							    <section class="entry-content cf">
-                                                                <div class="fadeout">
+
                                                                     <?php the_excerpt(); ?>
-                                                                    </div>
+
 							    </section>
-                                                            
+
                                                             <!--
                                                             <footer class="article-footer cf">
                                                                 <p class="footer-comment-count">
@@ -26,4 +26,6 @@
                                                                 <?php the_tags( '<p class="footer-tags tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
 							    </footer>
                                                             -->
+                                                            <div class="bottom_fade">
+                                                            </div>
                                                         </article>

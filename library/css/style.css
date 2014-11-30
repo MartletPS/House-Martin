@@ -3064,12 +3064,12 @@ article.category-about header {
 }
 
 .bottom_fade {
-  min-width:100px;
+  min-width:15px;
   width: 100%;
   height: 20px;
   z-index: 99;
   position: fixed;
   bottom: 0px;
   background-color:#000000;
-  background: url("http://www.martlet.ca/wp-content/themes/House-Martin/library/images/bottom-fade.png") bottom center no-repeat;
+  /* background: url("http://www.martlet.ca/wp-content/themes/House-Martin/library/images/bottom-fade.png") bottom center no-repeat; */
 }

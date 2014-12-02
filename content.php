@@ -12,7 +12,7 @@
                                                                     </p>
 							    </header>
 							    <section class="entry-content cf">
-                                                                <div class="fadeout">
+                                                                <div class="frontpage_content">
                                                                     <?php the_excerpt(); ?>
                                                                 </div>
 							    </section>

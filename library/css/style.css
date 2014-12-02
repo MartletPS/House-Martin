@@ -1764,7 +1764,7 @@ span.author {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-  .fadeout {
+  .frontpage_content {
     background: -webkit-linear-gradient(#000, #fff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -2236,6 +2236,10 @@ and (max-device-width : 480px) {
   #flexslider_hg_index_wrapper {
     display:none;
   }
+  
+  .frontpage_content {
+    display: none;
+  }
 }
 
 /*********************
@@ -2276,6 +2280,10 @@ tweeners.
 
   #flexslider_hg_index_wrapper {
     display:none;
+  }
+  
+  .frontpage_content {
+    display: none;
   }
 
   /*********************
@@ -2380,6 +2388,10 @@ you can add resource intensive styles.
 
   #flexslider_hg_index_wrapper {
     display:block;
+  }
+  
+  .frontpage_content {
+    display: block;
   }
 
   /*********************
@@ -2553,6 +2565,10 @@ LOGO FIRST APPEARS AT THIS PIXEL WIDTH
   #flexslider_hg_index_wrapper {
     display:block;
   }
+  
+  .frontpage_content {
+    display: block;
+  }
 }
 
 /*********************
@@ -2588,6 +2604,10 @@ you can add resource intensive styles.
   #flexslider_hg_index_wrapper {
     display:block;
   }
+  
+  .frontpage_content {
+    display: block;
+  }
 
 }
 /*********************
@@ -2620,6 +2640,10 @@ This is for the larger monitors and possibly full screen viewers.
 
   #flexslider_hg_index_wrapper {
     display:block;
+  }
+  
+  .frontpage_content {
+    display: block;
   }
 
   /*********

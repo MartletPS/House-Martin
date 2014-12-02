@@ -1636,9 +1636,10 @@ HEADER STYLES
   margin-top: 10px;
   margin-left:auto;
   margin-right:auto;
-  width: 150px;
+  left:50%;
+  width: 250px;
   height: auto;
-  display:inline-block;
+  display:block;
 }
 
 /* line 165, ../scss/breakpoints/_base.scss */

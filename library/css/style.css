@@ -1470,6 +1470,14 @@ and will be used across all viewports.
 
 ******************************************************************/    
 
+.frontpage_content {
+  display: none;
+}
+
+#flexslider_hg_index_wrapper {
+  display: none;
+}
+
 /* IE VIEWPORT FIX */
 @-ms-viewport{
     width: extend-to-zoom;

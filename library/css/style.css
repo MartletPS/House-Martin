@@ -1634,9 +1634,9 @@ HEADER STYLES
 
 #logo {
   margin-top: 10px;
-  width: 180px;
+  width: 100px;
   height: auto;
-  display:none;
+  display:inline-block;
 }
 
 /* line 165, ../scss/breakpoints/_base.scss */
@@ -2241,10 +2241,7 @@ and (max-device-width : 480px) {
   
   ******************************************************************/
 
-  #logo {
-    display:none;
-  }
-  
+
   #flexslider_hg_index_wrapper {
     display:none;
   }
@@ -2287,12 +2284,6 @@ tweeners.
   anymore, so just be aware that if you drop
   them in here, they won't work.
   */
-  
-
-  #logo {
-    display:none;
-  }
-  
 
   #flexslider_hg_index_wrapper {
     display:none;
@@ -2401,10 +2392,6 @@ you can add resource intensive styles.
   /*********************
   GENERAL STYLES
   *********************/
-  #logo {
-    display:none;
-  }
-  
 
   #flexslider_hg_index_wrapper {
     display:block;
@@ -2582,7 +2569,7 @@ LOGO FIRST APPEARS AT THIS PIXEL WIDTH
     margin-top: 10px;
     width: 250px;
     height: auto;
-    display:block;
+    display:inline-block;
   }
   
 
@@ -2625,7 +2612,7 @@ you can add resource intensive styles.
     margin-top: 10px;
     width: 250px;
     height: auto;
-    display:block;
+    display:inline-block;
   }
   
 

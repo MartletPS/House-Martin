@@ -1478,6 +1478,10 @@ and will be used across all viewports.
   display: none;
 }
 
+#twitter_timeline-2 {
+  display: none;
+}
+
 /* IE VIEWPORT FIX */
 @-ms-viewport{
     width: extend-to-zoom;
@@ -2248,6 +2252,10 @@ and (max-device-width : 480px) {
   .frontpage_content {
     display: none;
   }
+  
+  #twitter_timeline-2 {
+    display: none;
+  }
 }
 
 /*********************
@@ -2291,6 +2299,10 @@ tweeners.
   }
   
   .frontpage_content {
+    display: none;
+  }
+  
+  #twitter_timeline-2 {
     display: none;
   }
 
@@ -2399,6 +2411,10 @@ you can add resource intensive styles.
   }
   
   .frontpage_content {
+    display: block;
+  }
+  
+  #twitter_timeline-2 {
     display: block;
   }
 
@@ -2577,6 +2593,10 @@ LOGO FIRST APPEARS AT THIS PIXEL WIDTH
   .frontpage_content {
     display: block;
   }
+  
+  #twitter_timeline-2 {
+    display: block;
+  }
 }
 
 /*********************
@@ -2616,6 +2636,10 @@ you can add resource intensive styles.
   .frontpage_content {
     display: block;
   }
+  
+  #twitter_timeline-2 {
+    display: block;
+  }  
 
 }
 /*********************
@@ -2653,6 +2677,10 @@ This is for the larger monitors and possibly full screen viewers.
   .frontpage_content {
     display: block;
   }
+  
+  #twitter_timeline-2 {
+    display: block;
+  }  
 
   /*********
    Menu styling

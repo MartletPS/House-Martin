@@ -11,10 +11,10 @@
                                                                         ?>
                                                                     </p>
 							    </header>
-							    <section class="entry-content cf frontpage_content">
+							    <section class="frontpage_content entry-content cf">
 
                                                                     <?php the_excerpt(); ?>
-                                                                
+
 							    </section>
 
                                                             <!--

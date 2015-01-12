@@ -1780,7 +1780,8 @@ span.author {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   .frontpage_content {
      /* background: -webkit-linear-gradient(#000, #fff); */
-     background: -webkit-linear-gradient(top,#000 30%, #fff);
+     /* background: -webkit-linear-gradient(top,#000 25%, #fff); */
+     background: -webkit-linear-gradient(top,  rgba(0, 0, 0, 1),rgba(255, 255, 255, 0.5)); /* Chrome10+,Safari5.1+ */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

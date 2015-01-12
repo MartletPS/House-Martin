@@ -1781,7 +1781,7 @@ span.author {
   .frontpage_content {
      /* background: -webkit-linear-gradient(#000, #fff); */
      /* background: -webkit-linear-gradient(top,#000 25%, #fff); */
-     background: -webkit-linear-gradient(top,rgba(0, 0, 0, 1) 38%,rgba(255, 255, 255, 0.75)); /* Chrome10+,Safari5.1+ */
+     background: -webkit-linear-gradient(top,rgba(0, 0, 0, 1) 38%,rgba(255, 255, 255, 0.1)); /* Chrome10+,Safari5.1+ */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

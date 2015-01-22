@@ -2710,7 +2710,8 @@ This is for the larger monitors and possibly full screen viewers.
   }
   /* line 54, ../scss/breakpoints/_1240up.scss */
   #flexslider_hg_index_wrapper img {
-    width: 650px;
+    width:auto;
+    height: 400px;
     margin-left: 160px;
   }
   /* line 61, ../scss/breakpoints/_1240up.scss */

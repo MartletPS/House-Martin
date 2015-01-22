@@ -3109,3 +3109,8 @@ article.category-about header {
 
 .featurearticle {
 }
+
+.slide img {
+display:block;
+height:auto;
+}

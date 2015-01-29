@@ -48,7 +48,7 @@ if (!empty($dbname)) {
     $cfg['Servers'][$i]['auth_type'] = 'cookie';
      /* User parameters */
     $cfg['Servers'][$i]['user'] = 'root';
-    $cfg['Servers'][$i]['password'] = 'test123';
+    $cfg['Servers'][$i]['password'] = '';
     /* Server parameters */
     if (empty($dbserver)) $dbserver = 'localhost';
     $cfg['Servers'][$i]['host'] = $dbserver;
@@ -78,7 +78,7 @@ if (!empty($dbname)) {
 
     /* Uncomment the following to enable logging in to passwordless accounts,
      * after taking note of the associated security risks. */
-    // $cfg['Servers'][$i]['AllowNoPassword'] = TRUE;
+     $cfg['Servers'][$i]['AllowNoPassword'] = TRUE;
 
     /* Advance to next server for rest of config */
     $i++;

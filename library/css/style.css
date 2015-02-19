@@ -2506,6 +2506,8 @@ you can add resource intensive styles.
   *********************/
   /* line 142, ../scss/breakpoints/_768up.scss */
   .sidebar {
+    height: 1540px;
+    overflow-y: hidden;
     border-left: 1px dotted;
     padding: 0 1em;
     margin-bottom: 1.5em;

@@ -2760,14 +2760,13 @@ This is for the larger monitors and possibly full screen viewers.
   *********/
   /* line 103, ../scss/breakpoints/_1240up.scss */
   .footer {
-    width: 1200px;
+    width: 100%;
   }
   /* line 107, ../scss/breakpoints/_1240up.scss */
   .footer div.policy {
     text-align: center;
     clear: both;
     width: 1200px;
-    margin-bottom: 2em;
     font-size: 0.6em;
   }
   /* line 114, ../scss/breakpoints/_1240up.scss */
@@ -2783,6 +2782,7 @@ This is for the larger monitors and possibly full screen viewers.
   /* line 124, ../scss/breakpoints/_1240up.scss */
   .footer .addresses {
     width: 400px;
+    max-height: 200px;
     float: left;
   }
   /* line 128, ../scss/breakpoints/_1240up.scss */

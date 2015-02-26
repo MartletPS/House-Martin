@@ -2960,6 +2960,7 @@ Navigation Overrides
 }
 /* line 166, ../scss/style.scss */
 #menu-main-nav li a:hover, #menu-header li a:hover {
+   background-color: #000;
   text-decoration: none;
 }
 /* line 170, ../scss/style.scss */

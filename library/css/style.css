@@ -2257,6 +2257,11 @@ and (max-device-width : 480px) {
   #twitter_timeline-2 {
     display: none;
   }
+  
+  #adsanity-group-4 {
+    width:100px;
+    height:auto;
+  }
 }
 
 /*********************

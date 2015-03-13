@@ -1488,6 +1488,10 @@ and will be used across all viewports.
     zoom: 1.0;
 }
 
+#adsanity-group-4 {
+  display:none;
+}
+
 /*********************
 GENERAL STYLES
 *********************/

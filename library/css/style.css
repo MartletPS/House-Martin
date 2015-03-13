@@ -2259,8 +2259,7 @@ and (max-device-width : 480px) {
   }
   
   #adsanity-group-4 {
-    width:50px;
-    height:50px;
+    display:none;
   }
 }
 
@@ -2304,6 +2303,10 @@ tweeners.
   
   #twitter_timeline-2 {
     display: none;
+  }
+  
+  #adsanity-group-4 {
+    display:block;
   }
 
   /*********************
@@ -2412,6 +2415,10 @@ you can add resource intensive styles.
   
   #twitter_timeline-2 {
     display: block;
+  }
+  
+  #adsanity-group-4 {
+    display:block;
   }
 
   /*********************
@@ -2594,6 +2601,10 @@ LOGO FIRST APPEARS AT THIS PIXEL WIDTH
   #twitter_timeline-2 {
     display: block;
   }
+  
+  #adsanity-group-4 {
+    display:block;
+  }
 }
 
 /*********************
@@ -2678,6 +2689,10 @@ This is for the larger monitors and possibly full screen viewers.
   #twitter_timeline-2 {
     display: block;
   }  
+  
+  #adsanity-group-4 {
+    display:block;
+  }
 
   /*********
    Menu styling

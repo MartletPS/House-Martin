@@ -1489,7 +1489,7 @@ and will be used across all viewports.
 }
 
 #adsanity-group-4 {
-
+  display:none;
 }
 
 /*********************
@@ -2310,7 +2310,9 @@ tweeners.
   }
   
   #adsanity-group-4 {
-    display:none;
+    display:block;
+    width:1px;
+    height:1px;
   }
 
   /*********************

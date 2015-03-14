@@ -76,6 +76,8 @@
 								</footer>
 
 								<?php comments_template(); ?>
+								
+								<?php wp_related_posts()?>
 
 							</article>
 

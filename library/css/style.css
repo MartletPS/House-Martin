@@ -2310,7 +2310,7 @@ tweeners.
   }
   
   #adsanity-group-4 {
-    display:none;
+    display:block;
   }
 
   /*********************
@@ -2422,6 +2422,7 @@ you can add resource intensive styles.
   }
   
   #adsanity-group-4 {
+    display:block;
   }
 
   /*********************
@@ -2606,6 +2607,7 @@ LOGO FIRST APPEARS AT THIS PIXEL WIDTH
   }
   
   #adsanity-group-4 {
+    display:block;
   }
 }
 
@@ -2693,6 +2695,7 @@ This is for the larger monitors and possibly full screen viewers.
   }  
   
   #adsanity-group-4 {
+    display:block;
   }
 
   /*********

@@ -23,8 +23,8 @@
                                <h3>Navigation</h3>
 
                                <ul>
-                                   <li><a href="http://www.martlet.ca/get-involved/">Get Involved</a></li>
-                                   <li><a href="http://www.martlet.ca/about/">The MPS</a></li>
+                                   <li><a href="http://www.martlet.ca/volunteer/">Get Involved</a></li>
+                                   <li><a href="http://www.martlet.ca/aboutus/">The MPS</a></li>
                                    <li><a href="http://www.martlet.ca/find-a-location/">Locations</a></li>
                                    <li><a href="http://www.martlet.ca/ads/">Advertising</a></li>
                                    <li><a href="http://www.martlet.ca/contests/">Contests</a></li>
@@ -71,7 +71,7 @@
                                 <h3>Staff Contact</h3>
                               <p>
                                   <strong>Editor-in-Chief</strong><br />
-                                  Hugo Wong <br />
+                                  Myles Sauer <br />
                                   edit@martlet.ca
                               </p>
                               <p>
@@ -80,9 +80,9 @@
                                   business@martlet.ca
                               </p>
                               <p>
-                                  <strong>Production Co-ordinator</strong><br />
+                                  <strong>Design Director</strong><br />
                                   William Workman <br />
-                                  proco@martlet.ca
+                                  design@martlet.ca
                               </p>
 
                           </div>

@@ -81,7 +81,7 @@
                               </p>
                               <p>
                                   <strong>Design Director</strong><br />
-                                  William Workman <br />
+                                  Niusha Derakhshan <br />
                                   design@martlet.ca
                               </p>
 

@@ -298,6 +298,9 @@ ul {
   list-style-type: disc;
 }
 */
+#colwrap ul {
+	list-style-type:none!important;
+}
 /*
  * Corrects list images handled incorrectly in IE7.
  */

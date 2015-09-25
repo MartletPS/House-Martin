@@ -292,11 +292,12 @@ menu {
 
 /* line 270, ../scss/partials/_normalize.scss */
 ol,
+/*
 ul {
   padding: 0;
   list-style-type: disc;
 }
-
+*/
 /*
  * Corrects list images handled incorrectly in IE7.
  */

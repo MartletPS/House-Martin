@@ -81,7 +81,7 @@
                               </p>
                               <p>
                                   <strong>Design Director</strong><br />
-                                  Niusha Derakhshan <br />
+                                  Leone Brander <br />
                                   design@martlet.ca
                               </p>
 

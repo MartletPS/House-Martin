@@ -70,10 +70,10 @@
                           <div class="staff-contact">
                                 <h3>Staff Contact</h3>
                               <p>
-                                  <strong>Editor-in-Chief</strong><br />
-                                  Myles Sauer <br />
+                                  <strong>Editors-in-Chief</strong><br />
+                                  Cormac O'Brien & Sarah Lazin <br />
                                   edit@martlet.ca
-                              </p>
+                              </p>	
                               <p>
                                   <strong>Business Manager</strong><br />
                                   Alex Coates <br />
@@ -81,7 +81,7 @@
                               </p>
                               <p>
                                   <strong>Design Director</strong><br />
-                                  Leone Brander <br />
+                                  Logan Popoff <br />
                                   design@martlet.ca
                               </p>
 

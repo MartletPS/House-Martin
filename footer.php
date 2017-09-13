@@ -79,12 +79,7 @@
                                   Alex Coates <br />
                                   business@martlet.ca
                               </p>
-                              <p>
-                                  <strong>Design Director</strong><br />
-                                  Logan Popoff <br />
-                                  design@martlet.ca
-                              </p>
-
+                            
                           </div>
                     </div>
                     <div class="policy">

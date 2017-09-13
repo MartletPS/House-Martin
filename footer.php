@@ -71,8 +71,8 @@
                                 <h3>Staff Contact</h3>
                               <p>
                                   <strong>Editors-in-Chief</strong><br />
-                                  Cormac O'Brien & Sarah Lazin <br />
-                                  edit@martlet.ca
+                                  Cormac O'Brien | Sarah Lazin <br />
+                                  edit@martlet.ca | sarah@martlet.ca
                               </p>	
                               <p>
                                   <strong>Business Manager</strong><br />

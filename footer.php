@@ -83,7 +83,7 @@
                           </div>
                     </div>
                     <div class="policy">
-                        The Martlet Publishing Society is an incorporated B.C. Society and operates based on our Statement of Principles. We strive to act as an agent of constructive social change and will not publish racist, sexist, homophobic or otherwise oppressive copy.<br />
+                        The Martlet Publishing Society is an incorporated B.C. Society and operates based on our Statement of Principles. We strive to act as an agent of constructive social change and will not publish racist, sexist, homophobic, or otherwise oppressive copy.<br />
                         &copy; Copyright Martlet Publishing Society
                     </div>
 

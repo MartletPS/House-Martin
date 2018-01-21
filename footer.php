@@ -30,8 +30,6 @@
                                    <li><a href="http://www.martlet.ca/contests/">Contests</a></li>
                                    <li><a href="http://www.martlet.ca/jobs/">Jobs</a></li>
                                    <li><a href="http://www.martlet.ca/about/staff/">Staff</a></li>
-                                   <br/>
-                                   <li><a href="http://www.martlet.ca/wp-login.php">Login</a></li>
                                </ul>
                            </div>
                            <div class="addresses">
